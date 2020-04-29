@@ -1,0 +1,513 @@
+name: Bachelorstudium Software & Information Engineering
+mandatoryEcts: 141
+electiveEcts: 21
+transferableSkills: 6
+freeEcts: 12
+steopSize: 16.5
+maxWithoutSteop: 22
+
+subjects:
+  - name: Computersysteme
+    modules:
+    - name: Betriebssysteme
+      type: mandatory
+      minEcts: 6
+      courses:
+        - name: VO Betriebssysteme
+          ects: 2
+          steop: required
+          recommendedSemester: 3
+        - name: UE Betriebssysteme
+          ects: 4
+          steop: required
+          recommendedSemester: 3
+
+    - name: Einführung in Visual Computing
+      type: mandatory
+      minEcts: 6
+      courses:
+        - name: VU Einführung in Visual Computing
+          ects: 6
+          steop: optional
+          recommendedSemester: 2
+
+    - name: Technische Grundlagen für Informatik
+      type: mandatory
+      minEcts: 6
+      courses:
+        - name: VU Technische Grundlagen der Informatik
+          ects: 6
+          steop: pool
+          recommendedSemester: 1
+
+    - name: Verteilte Systeme
+      type: mandatory
+      minEcts: 6
+      courses:
+        - name: VO Verteilte Systeme
+          ects: 3
+          steop: required
+          recommendedSemester: 5
+        - name: UE Verteilte Systeme
+          ects: 3
+          steop: required
+          recommendedSemester: 5
+
+    - name: Abstrakte Maschinen
+      type: elective
+      minEcts: 6
+      courses:
+        - name: VO Abstrakte Maschinen
+          ects: 3
+          steop: required
+        - name: UE Abstrakte Maschinen
+          ects: 3
+          steop: required
+
+    - name: Microcontroller
+      type: elective
+      minEcts: 7
+      courses:
+        - name: VU Microcontroller
+          ects: 7
+          steop: required
+
+    - name: Zuverlässige Echtzeitsysteme
+      type: elective
+      minEcts: 5
+      courses:
+        - name: VU Dependable Systems
+          ects: 3
+          steop: required
+        - name: VO Echtzeitsysteme
+          ects: 2
+          steop: required
+
+    - name: Übersetzerbau
+      type: elective
+      minEcts: 6
+      courses:
+        - name: VU Übersetzerbau
+          ects: 6
+          steop: required
+
+    - name: Übungen zu Visual Computing
+      type: elective
+      minEcts: 6
+      courses:
+        - name: UE Einführung in die Computergraphik
+          ects: 3
+          steop: required
+        - name: UE Einführung in die digitale Bildverarbeitung
+          ects: 3
+          steop: required
+
+  - name: Mathematik, Statistik und Theoretische Informatik
+    modules:
+    - name: Algebra und Diskrete Mathematik
+      type: mandatory
+      minEcts: 9
+      courses:
+        - name: VO Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik
+          ects: 4
+          steop: core
+          recommendedSemester: 1
+        - name: UE Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik
+          ects: 5
+          steop: pool
+          recommendedSemester: 1
+
+    - name: Analysis
+      type: mandatory
+      minEcts: 6
+      courses:
+        - name: VO Analysis für Informatik und Wirtschaftsinformatik
+          ects: 2
+          steop: pool
+          recommendedSemester: 2
+        - name: UE Analysis für Informatik und Wirtschaftsinformatik
+          ects: 4
+          steop: pool
+          recommendedSemester: 2
+
+    - name: Statistik und Wahrscheinlichkeitstheorie
+      type: mandatory
+      minEcts: 6
+      courses:
+        - name: VO Statistik und Wahrscheinlichkeitstheorie
+          ects: 3
+          steop: required
+          recommendedSemester: 3
+        - name: UE Statistik und Wahrscheinlichkeitstheorie
+          ects: 3
+          steop: required
+          recommendedSemester: 3
+
+    - name: Theoretische Informatik und Logik
+      type: mandatory
+      minEcts: 6
+      courses:
+        - name: VU Theoretische Informatik und Logik
+          ects: 6
+          steop: required
+          recommendedSemester: 3
+
+    - name: Argumentieren und Beweisen
+      type: elective
+      minEcts: 6
+      courses:
+        - name: VU Argumentieren und Beweisen
+          ects: 6
+          steop: required
+
+    - name: Computernumerik
+      type: elective
+      minEcts: 4.5
+      courses:
+        - name: VO Computernumerik
+          ects: 3
+          steop: required
+        - name: UE Computernumerik
+          ects: 1.5
+          steop: required
+
+    - name: Multivariate und computerintensive statistische Methoden
+      type: elective
+      minEcts: 9
+      courses:
+        - name: VO Multivariate Statistik
+          ects: 4.5
+          steop: required
+        - name: VU Statistische Simulation und computerintensive Methoden
+          ects: 3
+          steop: required
+        - name: UE Multivariate Statistik
+          ects: 1.5
+          steop: required
+
+  - name: Algorithmen und Programmierung
+    modules:
+    - name: Algorithmen und Datenstrukturen
+      type: mandatory
+      minEcts: 8
+      courses:
+        - name: VU Algorithmen und Datenstrukturen
+          ects: 8
+          steop: optional
+          semester: summer
+          recommendedSemester: 2
+          recommendedSemesterLateEnrollers: 3
+
+    - name: Einführung in die Programmierung
+      type: mandatory
+      minEcts: 9.5
+      courses:
+        - name: VU Einführung in die Programmierung 1
+          ects: 5.5
+          steop: core
+          recommendedSemester: 1
+        - name: VU Einführung in die Programmierung 2
+          ects: 4
+          steop: optional
+          recommendedSemester: 2
+
+    - name: Einführung in paralleles Rechnen (Parallel Computing)
+      type: mandatory
+      minEcts: 6
+      courses:
+        - name: VU Parallel Computing
+          ects: 6
+          steop: required
+          recommendedSemester: 4
+
+    - name: Programmierparadigmen
+      type: mandatory
+      minEcts: 6
+      courses:
+        - name: VU Funktionale Programmierung
+          ects: 3
+          steop: required
+          recommendedSemester: 3
+        - name: VU Objektorientierte Programmiertechniken
+          ects: 3
+          steop: required
+          recommendedSemester: 3
+
+    - name: Deklaratives Problemlösen
+      type: elective
+      minEcts: 6
+      courses:
+        - name: VO Deklaratives Problemlösen
+          ects: 3
+          steop: required
+        - name: UE Deklaratives Problemlösen
+          ects: 3
+          steop: required
+
+    - name: Logikprogrammierung und Constraints
+      type: elective
+      minEcts: 6
+      courses:
+        - name: VU Logikprogrammierung und Constraints
+          ects: 6
+          steop: required
+
+  - name: Bachelorarbeit
+    modules:
+    - name: Bachelorarbeit
+      type: mandatory
+      minEcts: 13
+      courses:
+        - name: SE Wissenschaftliches Arbeiten
+          ects: 3
+          steop: required
+          recommendedSemester: 5
+        - name: PR Bachelorarbeit für Informatik und Wirtschaftsinformatik
+          ects: 10
+          steop: required
+          recommendedSemester: 6
+
+  - name: Information Engineering
+    modules:
+    - name: Datenbanksysteme
+      type: mandatory
+      minEcts: 6
+      courses:
+        - name: VU Datenbanksysteme
+          ects: 6
+          steop: required
+          recommendedSemester: 3
+
+    - name: Grundlagen intelligenter Systeme
+      type: mandatory
+      minEcts: 8
+      courses:
+        - name: VU Einführung in die Künstliche Intelligenz
+          ects: 3
+          steop: required
+          recommendedSemester: 4
+        - name: VU Einführung in wissensbasierte Systeme
+          ects: 5
+          steop: required
+          recommendedSemester: 5
+
+    - name: Entwicklung von Web-Anwendungen
+      type: elective
+      minEcts: 6
+      courses:
+        - name: VU Semistrukturierte Daten
+          ects: 3
+          steop: required
+        - name: VU Web Engineering
+          ects: 3
+          steop: required
+
+    - name: Modelle und Modellierung von statistischen Daten
+      type: elective
+      minEcts: 7.5
+      courses:
+        - name: VU Computational Statistics
+          ects: 4.5
+        - name: VU Fuzzy Modelle
+          ects: 3
+          steop: required
+
+    - name: Statistische Datenanalyse
+      type: elective
+      minEcts: 6
+      courses:
+        - name: VU Datenanalyse
+          ects: 3
+          steop: required
+        - name: VU Statistical Computing
+          ects: 3
+          steop: required
+
+    - name: Wissensrepräsentation
+      type: elective
+      minEcts: 6
+      courses:
+        - name: VO Logik für Wissensrepräsentation
+          ects: 3
+          steop: required
+        - name: UE Logik für Wissensrepräsentation
+          ects: 3
+          steop: required
+
+  - name: Informatik und Gesellschaft
+    modules:
+    - name: Denkweisen der Informatik
+      type: mandatory
+      minEcts: 6.5
+      courses:
+        - name: VU Denkweisen der Informatik
+          ects: 5.5
+          steop: pool
+          recommendedSemester: 1
+        - name: VU Orientierung Informatik und Wirtschaftsinformatik
+          ects: 1
+          steop: core
+          recommendedSemester: 1
+
+    - name: Kontexte der Systementwicklung
+      type: mandatory
+      minEcts: 6
+      courses:
+        - name: VU Gesellschaftswissenschaftliche Grundlagen der Informatik
+          ects: 3
+          steop: required
+          recommendedSemester: 5
+        - name: VU Interface and Interaction Design
+          ects: 3
+          steop: required
+          recommendedSemester: 5
+
+    - name: Security und Recht
+      type: mandatory
+      minEcts: 6
+      courses:
+        - name: VU Daten- und Informatikrecht
+          ects: 3
+          steop: required
+          recommendedSemester: 4
+        - name: VU Introduction to Security
+          ects: 3
+          steop: required
+          recommendedSemester: 4
+
+    - name: Security
+      type: elective
+      courses:
+        - name: VU Internet Security
+          ects: 3
+          steop: required
+        - name: VU Introduction to Modern Cryptography
+          ects: 3
+          steop: required
+        - name: VU Privacy Enhancing Technologies
+          ects: 3
+          steop: required
+        - name: VU Security for Systems Engineering
+          ects: 3
+          steop: required
+        - name: UE Introduction to Security
+          ects: 3
+
+    - name: Vertrags-, Daten- und Informatikrecht
+      type: elective
+      minEcts: 6
+      courses:
+        - name: VU Vertrags- und Haftungsrecht
+          ects: 3
+          steop: required
+        - name: UE Daten- und Informatikrecht
+          ects: 3
+          steop: required
+
+  - name: Fachübergreifende Qualifikation und freie Wahl
+    modules:
+    - name: Fachübergreifende Qualifikationen
+      type: elective
+      minEcts: 9
+      courses:
+        - name: VO EDV-Vertragsrecht
+          ects: 1.5
+        - name: VO Einführung in Technik und Gesellschaft
+          ects: 3
+        - name: VU Forschungsmethoden
+          ects: 3
+        - name: VU Kommunikation und Moderation
+          ects: 3
+        - name: VU Kooperatives Arbeiten
+          ects: 3
+        - name: VU Präsentation und Moderation
+          ects: 3
+        - name: VU Softskills für TechnikerInnen
+          ects: 3
+        - name: VU Techniksoziologie und Technikpsychologie
+          ects: 3
+        - name: VO Theorie und Praxis der Gruppenarbeit
+          ects: 3
+        - name: SE Coaching als Führungsinstrument 2
+          ects: 3
+        - name: SE Critical Algorithm Studies
+          ects: 3
+        - name: SE Didaktik in der Informatik
+          ects: 3
+        - name: SE Folgenabschätzung von Informationstechnologien
+          ects: 3
+        - name: SE Kommunikation und Rhetorik 2
+          ects: 3
+        - name: SE Rechtsinformationsrecherche im Internet
+          ects: 3
+        - name: SE Scientific Presentation and Communication
+          ects: 3
+        - name: SE Wissenschaftliche Methodik
+          ects: 3
+        - name: PV Privatissimum aus Fachdidaktik Informatik
+          ects: 4
+        - name: EX Exkursion
+          ects: 3
+
+  - name: Software Engineering
+    modules:
+    - name: Modellierung
+      type: mandatory
+      minEcts: 6
+      courses:
+        - name: VU Formale Modellierung
+          ects: 3
+          steop: pool
+          recommendedSemester: 2
+        - name: VU Objektorientierte Modellierung
+          ects: 3
+          steop: pool
+          recommendedSemester: 2
+
+    - name: Software Engineering und Projektmanagement
+      type: mandatory
+      minEcts: 9
+      courses:
+        - name: VO Software Engineering und Projektmanagement
+          ects: 3
+          steop: required
+          recommendedSemester: 4
+        - name: PR Software Engineering und Projektmanagement
+          ects: 6
+          steop: required
+          recommendedSemester: 4
+
+    - name: Programm- und Systemverifikation
+      type: elective
+      minEcts: 6
+      courses:
+        - name: VU Programm- und Systemverifikation
+          ects: 6
+          steop: required
+
+    - name: Softwareprojekt-Beobachtung und -Controlling
+      type: elective
+      minEcts: 6
+      courses:
+        - name: VU Softwareprojekt-Beobachtung und -Controlling
+          ects: 6
+          steop: required
+
+    - name: Softwarequalitätssicherung
+      type: elective
+      minEcts: 6
+      courses:
+        - name: VU Software-Qualitätssicherung
+          ects: 6
+          steop: required
+
+    - name: Usability Engineering and Mobile Interaction
+      type: elective
+      minEcts: 6
+      courses:
+        - name: "VU Pilots in Mobile Interaction: User-centered Interaction Research and Evaluation"
+          ects: 3
+          steop: required
+        - name: VU Usability Engineering
+          ects: 3
+          steop: required

@@ -1,0 +1,23 @@
+ifStudySince: 2017S
+source: http://www.informatik.tuwien.ac.at/studium/angebot/studienplaene/informatik-archiv/informatik-uebergang-2017/ubsi.pdf
+equivalences:
+ - - [5.9 UE Programmierpraxis]
+   - [8.8 VU Programmkonstruktion]
+   - [5.5 VU Einführung in die Programmierung 1, 4.0 UE Einführung in die Programmierung 2]
+
+ - - [6.0 VU Algorithmen und Datenstrukturen 1]
+   - [8.0 VU Algorithmen und Datenstrukturen]
+
+ - - [3.0 VU Gesellschaftliche Spannungsfelder der Informatik]
+   - [5.5 VU Denkweisen der Informatik]
+
+ - - [3.0 VU Datenmodellierung, 3.0 VU Datenmodellierung 2]
+   - [3.0 VU Datenmodellierung, 6.0 VU Datenbanksysteme]
+   - [6.0 VU Datenbanksysteme]
+
+complementary mandatory:
+    - 2.9 VU Grundlagen der Programmkonstruktion
+    - 0.2 UE Studieneingangsgespräch
+    - 3.0 VU Algorithmen und Datenstrukturen 2
+    - 6.0 VU Parallel Computing Einführung paralleles Rechnen
+    - 6.0 VU Basics of Human Computer Interaction
