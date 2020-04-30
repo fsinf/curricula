@@ -24,6 +24,7 @@ for filename in glob.glob('*-curricula.yml'):
 	data['transitions'] = []
 
 	code = filename.split('-')[0]
+	data['code'] = code
 
 	for transition in glob.glob(code + '-transition-*.yml'):
 		with open(transition) as f:
@@ -33,7 +34,7 @@ for filename in glob.glob('*-curricula.yml'):
 	with JSON_DIR.joinpath(outname).open('w') as f:
 		json.dump(data, f)
 
-	curriculums.append(dict(name=data['name'], href=outname))
+	curriculums.append(dict(name=data['name'],  type=data['type'], href=outname, code=code))
 
 with JSON_DIR.joinpath('index.json').open('w') as f:
 	json.dump(curriculums, f)
