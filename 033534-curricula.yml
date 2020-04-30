@@ -13,7 +13,6 @@ subjects:
     modules:
     - name: Betriebssysteme
       type: mandatory
-      minEcts: 6
       courses:
         - name: VO Betriebssysteme
           ects: 2
@@ -26,7 +25,6 @@ subjects:
 
     - name: Einführung in Visual Computing
       type: mandatory
-      minEcts: 6
       courses:
         - name: VU Einführung in Visual Computing
           ects: 6
@@ -35,7 +33,6 @@ subjects:
 
     - name: Technische Grundlagen für Informatik
       type: mandatory
-      minEcts: 6
       courses:
         - name: VU Technische Grundlagen der Informatik
           ects: 6
@@ -44,7 +41,6 @@ subjects:
 
     - name: Verteilte Systeme
       type: mandatory
-      minEcts: 6
       courses:
         - name: VO Verteilte Systeme
           ects: 3
@@ -57,7 +53,6 @@ subjects:
 
     - name: Abstrakte Maschinen
       type: elective
-      minEcts: 6
       courses:
         - name: VO Abstrakte Maschinen
           ects: 3
@@ -68,7 +63,6 @@ subjects:
 
     - name: Microcontroller
       type: elective
-      minEcts: 7
       courses:
         - name: VU Microcontroller
           ects: 7
@@ -76,7 +70,6 @@ subjects:
 
     - name: Zuverlässige Echtzeitsysteme
       type: elective
-      minEcts: 5
       courses:
         - name: VU Dependable Systems
           ects: 3
@@ -87,7 +80,6 @@ subjects:
 
     - name: Übersetzerbau
       type: elective
-      minEcts: 6
       courses:
         - name: VU Übersetzerbau
           ects: 6
@@ -95,7 +87,6 @@ subjects:
 
     - name: Übungen zu Visual Computing
       type: elective
-      minEcts: 6
       courses:
         - name: UE Einführung in die Computergraphik
           ects: 3
@@ -108,7 +99,6 @@ subjects:
     modules:
     - name: Algebra und Diskrete Mathematik
       type: mandatory
-      minEcts: 9
       courses:
         - name: VO Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik
           ects: 4
@@ -121,7 +111,6 @@ subjects:
 
     - name: Analysis
       type: mandatory
-      minEcts: 6
       courses:
         - name: VO Analysis für Informatik und Wirtschaftsinformatik
           ects: 2
@@ -134,7 +123,6 @@ subjects:
 
     - name: Statistik und Wahrscheinlichkeitstheorie
       type: mandatory
-      minEcts: 6
       courses:
         - name: VO Statistik und Wahrscheinlichkeitstheorie
           ects: 3
@@ -147,7 +135,6 @@ subjects:
 
     - name: Theoretische Informatik und Logik
       type: mandatory
-      minEcts: 6
       courses:
         - name: VU Theoretische Informatik und Logik
           ects: 6
@@ -156,7 +143,6 @@ subjects:
 
     - name: Argumentieren und Beweisen
       type: elective
-      minEcts: 6
       courses:
         - name: VU Argumentieren und Beweisen
           ects: 6
@@ -164,7 +150,6 @@ subjects:
 
     - name: Computernumerik
       type: elective
-      minEcts: 4.5
       courses:
         - name: VO Computernumerik
           ects: 3
@@ -175,7 +160,6 @@ subjects:
 
     - name: Multivariate und computerintensive statistische Methoden
       type: elective
-      minEcts: 9
       courses:
         - name: VO Multivariate Statistik
           ects: 4.5
@@ -191,7 +175,6 @@ subjects:
     modules:
     - name: Algorithmen und Datenstrukturen
       type: mandatory
-      minEcts: 8
       courses:
         - name: VU Algorithmen und Datenstrukturen
           ects: 8
@@ -202,7 +185,6 @@ subjects:
 
     - name: Einführung in die Programmierung
       type: mandatory
-      minEcts: 9.5
       courses:
         - name: VU Einführung in die Programmierung 1
           ects: 5.5
@@ -215,7 +197,6 @@ subjects:
 
     - name: Einführung in paralleles Rechnen (Parallel Computing)
       type: mandatory
-      minEcts: 6
       courses:
         - name: VU Parallel Computing
           ects: 6
@@ -224,7 +205,6 @@ subjects:
 
     - name: Programmierparadigmen
       type: mandatory
-      minEcts: 6
       courses:
         - name: VU Funktionale Programmierung
           ects: 3
@@ -237,7 +217,6 @@ subjects:
 
     - name: Deklaratives Problemlösen
       type: elective
-      minEcts: 6
       courses:
         - name: VO Deklaratives Problemlösen
           ects: 3
@@ -248,7 +227,6 @@ subjects:
 
     - name: Logikprogrammierung und Constraints
       type: elective
-      minEcts: 6
       courses:
         - name: VU Logikprogrammierung und Constraints
           ects: 6
@@ -258,7 +236,6 @@ subjects:
     modules:
     - name: Bachelorarbeit
       type: mandatory
-      minEcts: 13
       courses:
         - name: SE Wissenschaftliches Arbeiten
           ects: 3
@@ -273,7 +250,6 @@ subjects:
     modules:
     - name: Datenbanksysteme
       type: mandatory
-      minEcts: 6
       courses:
         - name: VU Datenbanksysteme
           ects: 6
@@ -282,7 +258,6 @@ subjects:
 
     - name: Grundlagen intelligenter Systeme
       type: mandatory
-      minEcts: 8
       courses:
         - name: VU Einführung in die Künstliche Intelligenz
           ects: 3
@@ -295,7 +270,6 @@ subjects:
 
     - name: Entwicklung von Web-Anwendungen
       type: elective
-      minEcts: 6
       courses:
         - name: VU Semistrukturierte Daten
           ects: 3
@@ -306,7 +280,6 @@ subjects:
 
     - name: Modelle und Modellierung von statistischen Daten
       type: elective
-      minEcts: 7.5
       courses:
         - name: VU Computational Statistics
           ects: 4.5
@@ -316,7 +289,6 @@ subjects:
 
     - name: Statistische Datenanalyse
       type: elective
-      minEcts: 6
       courses:
         - name: VU Datenanalyse
           ects: 3
@@ -327,7 +299,6 @@ subjects:
 
     - name: Wissensrepräsentation
       type: elective
-      minEcts: 6
       courses:
         - name: VO Logik für Wissensrepräsentation
           ects: 3
@@ -340,7 +311,6 @@ subjects:
     modules:
     - name: Denkweisen der Informatik
       type: mandatory
-      minEcts: 6.5
       courses:
         - name: VU Denkweisen der Informatik
           ects: 5.5
@@ -353,7 +323,6 @@ subjects:
 
     - name: Kontexte der Systementwicklung
       type: mandatory
-      minEcts: 6
       courses:
         - name: VU Gesellschaftswissenschaftliche Grundlagen der Informatik
           ects: 3
@@ -366,7 +335,6 @@ subjects:
 
     - name: Security und Recht
       type: mandatory
-      minEcts: 6
       courses:
         - name: VU Daten- und Informatikrecht
           ects: 3
@@ -379,6 +347,7 @@ subjects:
 
     - name: Security
       type: elective
+      minEcts: 6
       courses:
         - name: VU Internet Security
           ects: 3
@@ -397,7 +366,6 @@ subjects:
 
     - name: Vertrags-, Daten- und Informatikrecht
       type: elective
-      minEcts: 6
       courses:
         - name: VU Vertrags- und Haftungsrecht
           ects: 3
@@ -410,7 +378,6 @@ subjects:
     modules:
     - name: Modellierung
       type: mandatory
-      minEcts: 6
       courses:
         - name: VU Formale Modellierung
           ects: 3
@@ -423,7 +390,6 @@ subjects:
 
     - name: Software Engineering und Projektmanagement
       type: mandatory
-      minEcts: 9
       courses:
         - name: VO Software Engineering und Projektmanagement
           ects: 3
@@ -436,7 +402,6 @@ subjects:
 
     - name: Programm- und Systemverifikation
       type: elective
-      minEcts: 6
       courses:
         - name: VU Programm- und Systemverifikation
           ects: 6
@@ -444,7 +409,6 @@ subjects:
 
     - name: Softwareprojekt-Beobachtung und -Controlling
       type: elective
-      minEcts: 6
       courses:
         - name: VU Softwareprojekt-Beobachtung und -Controlling
           ects: 6
@@ -452,7 +416,6 @@ subjects:
 
     - name: Softwarequalitätssicherung
       type: elective
-      minEcts: 6
       courses:
         - name: VU Software-Qualitätssicherung
           ects: 6
@@ -460,7 +423,6 @@ subjects:
 
     - name: Usability Engineering and Mobile Interaction
       type: elective
-      minEcts: 6
       courses:
         - name: "VU Pilots in Mobile Interaction: User-centered Interaction Research and Evaluation"
           ects: 3
