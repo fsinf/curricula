@@ -166,16 +166,21 @@
 	</group>
 </group>
 <constraints>
-	<group name="STEOP" minEcts="16.5" maxEctsWithout="22">
+	<group name="STEOP" maxEctsWithout="22">
 		<group name="STEOP core" required="true">
 			<cref name="VO Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
 			<cref name="VU Einführung in die Programmierung 1"/>
 			<cref name="VU Orientierung Informatik und Wirtschaftsinformatik"/>
 		</group>
 
-		<group name="STEOP pool">
+		<group name="STEOP pool" minEcts="6">
 			<cref name="UE Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
 			<cref name="VO Analysis für Informatik und Wirtschaftsinformatik"/>
+			<cref name="UE Analysis für Informatik und Wirtschaftsinformatik"/>
+			<cref name="VU Denkweisen der Informatik"/>
+			<cref name="VU Formale Modellierung"/>
+			<cref name="VU Objektorientierte Modellierung"/>
+			<cref name="VU Technische Grundlagen der Informatik"/>
 		</group>
 	</group>
 </constraints>
