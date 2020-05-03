@@ -51,14 +51,14 @@
 		</xs:choice>
 	</xs:complexType>
 	<xs:complexType name="groupType">
-		<xs:choice maxOccurs="unbounded">
-			<xs:element name="group" type="groupType">
+		<xs:choice>
+			<xs:element name="group" type="groupType" maxOccurs="unbounded">
 				<xs:unique name="crefUniqueInSubgroup">
 					<xs:selector xpath="cref"/>
 					<xs:field xpath="@name"/>
 				</xs:unique>
 			</xs:element>
-			<xs:element name="cref" type="crefType"/>
+			<xs:element name="cref" type="crefType" maxOccurs="unbounded"/>
 			<xs:element name="variable" type="variableType"/>
 		</xs:choice>
 		<xs:attribute name="name" type="xs:string"/>
