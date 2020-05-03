@@ -1,0 +1,56 @@
+<transition
+	ifStudySince="2017S"
+	source="http://www.informatik.tuwien.ac.at/studium/angebot/studienplaene/informatik-archiv/informatik-uebergang-2017/ubsi.pdf"
+>
+
+<equivalence>
+	<group>
+		<course ects="5.9" name="UE Programmierpraxis"/>
+	</group>
+	<group>
+		<course ects="8.8" name="VU Programmkonstruktion"/>
+	</group>
+	<group>
+		<course ects="5.5" name="VU Einführung in die Programmierung 1"/>
+		<course ects="4.0" name="VU Einführung in die Programmierung 2"/>
+	</group>
+</equivalence>
+
+<equivalence>
+	<group>
+		<course ects="6.0" name="UE Algorithmen und Datenstrukturen 1"/>
+	</group>
+	<group>
+		<course ects="8.0" name="VU Algorithmen und Datenstrukturen"/>
+	</group>
+</equivalence>
+
+<equivalence>
+	<group>
+		<course ects="3.0" name="VU Gesellschaftliche Spannungsfelder der Informatik"/>
+	</group>
+	<group>
+		<course ects="5.5" name="VU Denkweisen der Informatik"/>
+	</group>
+</equivalence>
+
+<equivalence>
+	<group>
+		<course ects="3.0" name="VU Datenmodellierung"/>
+		<course ects="3.0" name="VU Datenmodellierung 2"/>
+	</group>
+	<group>
+		<course ects="3.0" name="VU Datenmodellierung"/>
+		<course ects="6.0" name="VU Datenbanksysteme"/>
+	</group>
+	<group>
+		<course ects="6.0" name="VU Datenbanksysteme"/>
+	</group>
+</equivalence>
+
+<complementary-mandatory ects="2.9" name="VU Grundlagen der Programmkonstruktion"/>
+<complementary-mandatory ects="0.2" name="UE Studieneingangsgespräch"/>
+<complementary-mandatory ects="3.0" name="VU Algorithmen und Datenstrukturen 2"/>
+<complementary-mandatory ects="6.0" name="VU Parallel Computing Einführung paralleles Rechnen"/>
+<complementary-mandatory ects="6.0" name="VU Basics of Human Computer Interaction"/>
+</transition>

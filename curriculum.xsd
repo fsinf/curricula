@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="curriculum">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="groups" type="groupsType">
+					<xs:key name="groupNameKey">
+						<xs:selector xpath=".//group"/>
+						<xs:field xpath="@name"/>
+					</xs:key>
+					<xs:keyref name="requiresRef" refer="groupNameKey">
+						<xs:selector xpath=".//group"/>
+						<xs:field xpath="@requires"/>
+					</xs:keyref>
+				</xs:element>
+				<xs:element name="courses" type="coursesType"/>
+				<xs:element name="semester-recommendation" type="semesterRecType">
+					<xs:unique name="onlyRecommendedOnce">
+						<xs:selector xpath=".//cref"/>
+						<xs:field xpath="@name"/>
+					</xs:unique>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="code" type="xs:string" use="required"/>
+			<xs:attribute name="name" type="xs:string" use="required"/>
+			<xs:attribute name="source" type="xs:string" use="required"/>
+			<xs:attribute name="minEcts" type="xs:string" use="required"/>
+		</xs:complexType>
+		<xs:key name="courseNameKey">
+			<xs:selector xpath="courses/course"/>
+			<xs:field xpath="@name"/>
+		</xs:key>
+		<xs:keyref name="cref" refer="courseNameKey">
+			<xs:selector xpath=".//cref"/>
+			<xs:field xpath="@name"/>
+		</xs:keyref>
+	</xs:element>
+	<xs:complexType name="groupsType">
+		<xs:choice>
+			<xs:element name="group" type="groupType" maxOccurs="unbounded">
+				<xs:unique name="crefUniqueInGroup">
+					<xs:selector xpath="cref"/>
+					<xs:field xpath="@name"/>
+				</xs:unique>
+			</xs:element>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="coursesType">
+		<xs:choice>
+			<xs:element name="course" type="courseType" maxOccurs="unbounded"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="groupType">
+		<xs:choice maxOccurs="unbounded">
+			<xs:element name="group" type="groupType">
+				<xs:unique name="crefUniqueInSubgroup">
+					<xs:selector xpath="cref"/>
+					<xs:field xpath="@name"/>
+				</xs:unique>
+			</xs:element>
+			<xs:element name="cref" type="crefType"/>
+			<xs:element name="variable" type="variableType"/>
+		</xs:choice>
+		<xs:attribute name="name" type="xs:string"/>
+		<xs:attribute name="minEcts" type="xs:float"/>
+		<xs:attribute name="maxEctsWithout" type="xs:float"/>
+		<xs:attribute name="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:length value="0"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="requires" type="xs:string"/>
+	</xs:complexType>
+	<xs:complexType name="courseType">
+		<xs:attribute name="ects" type="xs:float" use="required"/>
+		<xs:attribute name="name" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="crefType">
+		<xs:attribute name="name" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="variableType">
+	</xs:complexType>
+	<xs:complexType name="semesterRecType">
+		<xs:choice>
+			<xs:element name="semester" type="semesterType" maxOccurs="unbounded"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="semesterType">
+		<xs:choice>
+			<xs:element name="cref" type="crefType" maxOccurs="unbounded"/>
+		</xs:choice>
+	</xs:complexType>
+</xs:schema>
