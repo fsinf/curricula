@@ -3,7 +3,7 @@
 	<xs:element name="curriculum">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element name="groups" type="groupsType">
+				<xs:element name="group" type="groupType">
 					<xs:key name="groupNameKey">
 						<xs:selector xpath=".//group"/>
 						<xs:field xpath="@name"/>
@@ -24,7 +24,6 @@
 			<xs:attribute name="code" type="xs:string" use="required"/>
 			<xs:attribute name="name" type="xs:string" use="required"/>
 			<xs:attribute name="source" type="xs:string" use="required"/>
-			<xs:attribute name="minEcts" type="xs:string" use="required"/>
 		</xs:complexType>
 		<xs:key name="courseNameKey">
 			<xs:selector xpath="courses/course"/>
@@ -35,16 +34,6 @@
 			<xs:field xpath="@name"/>
 		</xs:keyref>
 	</xs:element>
-	<xs:complexType name="groupsType">
-		<xs:choice>
-			<xs:element name="group" type="groupType" maxOccurs="unbounded">
-				<xs:unique name="crefUniqueInGroup">
-					<xs:selector xpath="cref"/>
-					<xs:field xpath="@name"/>
-				</xs:unique>
-			</xs:element>
-		</xs:choice>
-	</xs:complexType>
 	<xs:complexType name="coursesType">
 		<xs:choice>
 			<xs:element name="course" type="courseType" maxOccurs="unbounded"/>

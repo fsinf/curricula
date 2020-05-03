@@ -19,9 +19,8 @@ def handle_group(el, courses):
 
 def handle_curriculum(el):
 	data = el.attrib
-	data['minEcts'] = float(data['minEcts'])
 	data['courses'] = {c.get('name'): dict(ects=float(c.get('ects'))) for c in el.find('courses')}
-	data['groups'] = [handle_group(group, data['courses']) for group in el.find('groups')]
+	data['group'] = handle_group(el.find('group'), data['courses'])
 	data['semesterRecommendation'] = [[c.get('name') for c in s] for s in el.find('semester-recommendation')]
 	return data
 
