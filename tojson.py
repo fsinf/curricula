@@ -9,7 +9,8 @@ def handle_group(el, courses):
 	if 'maxEctsWithout' in data:
 		data['maxEctsWithout'] = float(data['maxEctsWithout'])
 
-	data['required'] = data.get('required') in ('true', '1')
+	if 'required' in data:
+		data['required'] = data['required'] in ('true', '1')
 
 	if el.findall('group'):
 		data['groups'] = [handle_group(group, courses) for group in el.findall('group')]
@@ -21,6 +22,7 @@ def handle_curriculum(el):
 	data = el.attrib
 	data['courses'] = {c.get('name'): dict(ects=float(c.get('ects'))) for c in el.find('courses')}
 	data['group'] = handle_group(el.find('group'), data['courses'])
+	data['constraints'] = [handle_group(g, data['courses']) for g in el.find('constraints')]
 	data['semesterRecommendation'] = [[c.get('name') for c in s] for s in el.find('semester-recommendation')]
 	return data
 

@@ -4,18 +4,6 @@
 	source="https://tiss.tuwien.ac.at/curriculum/public/curriculumFileDownload.xhtml?date=20191001T000000&amp;key=46100"
 >
 <group name="Abschluss" minEcts="180">
-	<group name="STEOP" minEcts="16.5" maxEctsWithout="22">
-		<group name="STEOP core" required="true">
-			<cref name="VO Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
-			<cref name="VU Einführung in die Programmierung 1"/>
-			<cref name="VU Orientierung Informatik und Wirtschaftsinformatik"/>
-		</group>
-
-		<group name="STEOP pool">
-			<cref name="UE Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
-			<cref name="VO Analysis für Informatik und Wirtschaftsinformatik"/>
-		</group>
-	</group>
 	<group name="Pflichtmodule" required="true">
 		<group name="Modul Algorithmen und Datenstrukturen" required="true">
 			<cref name="VU Algorithmen und Datenstrukturen"/>
@@ -177,6 +165,20 @@
 		</group>
 	</group>
 </group>
+<constraints>
+	<group name="STEOP" minEcts="16.5" maxEctsWithout="22">
+		<group name="STEOP core" required="true">
+			<cref name="VO Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
+			<cref name="VU Einführung in die Programmierung 1"/>
+			<cref name="VU Orientierung Informatik und Wirtschaftsinformatik"/>
+		</group>
+
+		<group name="STEOP pool">
+			<cref name="UE Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
+			<cref name="VO Analysis für Informatik und Wirtschaftsinformatik"/>
+		</group>
+	</group>
+</constraints>
 <courses>
 	<course ects="3.0" name="UE Abstrakte Maschinen"/>
 	<course ects="3.0" name="VO Abstrakte Maschinen"/>

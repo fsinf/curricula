@@ -4,15 +4,12 @@
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element name="group" type="groupType">
-					<xs:key name="groupNameKey">
-						<xs:selector xpath=".//group"/>
+					<xs:unique name="oneCourseOnlyOneModule">
+						<xs:selector xpath=".//cref"/>
 						<xs:field xpath="@name"/>
-					</xs:key>
-					<xs:keyref name="requiresRef" refer="groupNameKey">
-						<xs:selector xpath=".//group"/>
-						<xs:field xpath="@requires"/>
-					</xs:keyref>
+					</xs:unique>
 				</xs:element>
+				<xs:element name="constraints" type="groupType"/>
 				<xs:element name="courses" type="coursesType"/>
 				<xs:element name="semester-recommendation" type="semesterRecType">
 					<xs:unique name="onlyRecommendedOnce">
@@ -25,6 +22,14 @@
 			<xs:attribute name="name" type="xs:string" use="required"/>
 			<xs:attribute name="source" type="xs:string" use="required"/>
 		</xs:complexType>
+		<xs:key name="groupNameKey">
+			<xs:selector xpath=".//group"/>
+			<xs:field xpath="@name"/>
+		</xs:key>
+		<xs:keyref name="requiresRef" refer="groupNameKey">
+			<xs:selector xpath=".//group"/>
+			<xs:field xpath="@requires"/>
+		</xs:keyref>
 		<xs:key name="courseNameKey">
 			<xs:selector xpath="courses/course"/>
 			<xs:field xpath="@name"/>
