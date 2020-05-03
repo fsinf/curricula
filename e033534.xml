@@ -6,7 +6,7 @@
 >
 <groups>
 <group name="STEOP" minEcts="16.5" maxEctsWithout="22">
-	<group name="STEOP core" required="">
+	<group name="STEOP core" required="true">
 		<cref name="VO Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
 		<cref name="VU Einführung in die Programmierung 1"/>
 		<cref name="VU Orientierung Informatik und Wirtschaftsinformatik"/>
@@ -17,88 +17,88 @@
 		<cref name="VO Analysis für Informatik und Wirtschaftsinformatik"/>
 	</group>
 </group>
-<group name="Pflichtmodule" required="">
-	<group name="Modul Algorithmen und Datenstrukturen" required="">
+<group name="Pflichtmodule" required="true">
+	<group name="Modul Algorithmen und Datenstrukturen" required="true">
 		<cref name="VU Algorithmen und Datenstrukturen"/>
 	</group>
-	<group name="Modul Einführung in die Programmierung" required="">
+	<group name="Modul Einführung in die Programmierung" required="true">
 		<cref name="VU Einführung in die Programmierung 1"/>
 		<cref name="VU Einführung in die Programmierung 2"/>
 	</group>
-	<group name="Modul Einführung in paralleles Rechnen" required="" requires="STEOP">
+	<group name="Modul Einführung in paralleles Rechnen" required="true" requires="STEOP">
 		<cref name="VU Parallel Computing"/>
 	</group>
-	<group name="Modul Programmierparadigmen" required="" requires="STEOP">
+	<group name="Modul Programmierparadigmen" required="true" requires="STEOP">
 		<cref name="VU Funktionale Programmierung"/>
 		<cref name="VU Objektorientierte Programmiertechniken"/>
 	</group>
-	<group name="Modul Betriebssysteme" required="" requires="STEOP">
+	<group name="Modul Betriebssysteme" required="true" requires="STEOP">
 		<cref name="VO Betriebssysteme"/>
 		<cref name="UE Betriebssysteme"/>
 	</group>
-	<group name="Modul Einführung in Visual Computing" required="">
+	<group name="Modul Einführung in Visual Computing" required="true">
 		<cref name="VU Einführung in Visual Computing"/>
 	</group>
-	<group name="Modul Technische Grundlagen für Informatik" required="">
+	<group name="Modul Technische Grundlagen für Informatik" required="true">
 		<cref name="VU Technische Grundlagen der Informatik"/>
 	</group>
-	<group name="Modul Verteilte Systeme" required="" requires="STEOP">
+	<group name="Modul Verteilte Systeme" required="true" requires="STEOP">
 		<cref name="VO Verteilte Systeme"/>
 		<cref name="UE Verteilte Systeme"/>
 	</group>
-	<group name="Modul Denkweisen der Informatik" required="">
+	<group name="Modul Denkweisen der Informatik" required="true">
 		<cref name="VU Denkweisen der Informatik"/>
 		<cref name="VU Orientierung Informatik und Wirtschaftsinformatik"/>
 	</group>
-	<group name="Modul Kontexte der Systementwicklung" required="" requires="STEOP">
+	<group name="Modul Kontexte der Systementwicklung" required="true" requires="STEOP">
 		<cref name="VU Gesellschaftswissenschaftliche Grundlagen der Informatik"/>
 		<cref name="VU Interface and Interaction Design"/>
 	</group>
-	<group name="Modul Security und Recht" required="" requires="STEOP">
+	<group name="Modul Security und Recht" required="true" requires="STEOP">
 		<cref name="VU Daten- und Informatikrecht"/>
 		<cref name="VU Introduction to Security"/>
 	</group>
-	<group name="Modul Datenbanksysteme" required="" requires="STEOP">
+	<group name="Modul Datenbanksysteme" required="true" requires="STEOP">
 		<cref name="VU Datenbanksysteme"/>
 	</group>
-	<group name="Modul Grundlagen intelligenter Systeme" required="" requires="STEOP">
+	<group name="Modul Grundlagen intelligenter Systeme" required="true" requires="STEOP">
 		<cref name="VU Einführung in die Künstliche Intelligenz"/>
 		<cref name="VU Einführung in wissensbasierte Systeme"/>
 	</group>
-	<group name="Modul Algebra und Diskrete Mathematik" required="">
+	<group name="Modul Algebra und Diskrete Mathematik" required="true">
 		<cref name="VO Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
 		<cref name="UE Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
 	</group>
-	<group name="Modul Analysis" required="">
+	<group name="Modul Analysis" required="true">
 		<cref name="VO Analysis für Informatik und Wirtschaftsinformatik"/>
 		<cref name="UE Analysis für Informatik und Wirtschaftsinformatik"/>
 	</group>
-	<group name="Modul Statistik und Wahrscheinlichkeitstheorie" required="" requires="STEOP">
+	<group name="Modul Statistik und Wahrscheinlichkeitstheorie" required="true" requires="STEOP">
 		<cref name="VO Statistik und Wahrscheinlichkeitstheorie"/>
 		<cref name="UE Statistik und Wahrscheinlichkeitstheorie"/>
 	</group>
-	<group name="Modul Theoretische Informatik und Logik" required="" requires="STEOP">
+	<group name="Modul Theoretische Informatik und Logik" required="true" requires="STEOP">
 		<cref name="VU Theoretische Informatik und Logik"/>
 	</group>
-	<group name="Modul Modellierung" required="">
+	<group name="Modul Modellierung" required="true">
 		<cref name="VU Formale Modellierung"/>
 		<cref name="VU Objektorientierte Modellierung"/>
 	</group>
-	<group name="Modul Software Engineering und Projektmanagement" required="" requires="STEOP">
+	<group name="Modul Software Engineering und Projektmanagement" required="true" requires="STEOP">
 		<cref name="VO Software Engineering und Projektmanagement"/>
 		<cref name="PR Software Engineering und Projektmanagement"/>
 	</group>
-	<group name="Modul Freie Wahlfächer und Transferable Skills" required="">
+	<group name="Modul Freie Wahlfächer und Transferable Skills" required="true">
 		<group name="Freie Wahlfächer"><variable/></group>
 		<group name="Transferable Skills" minEcts="6"><variable/></group>
 	</group>
-	<group name="Modul Bachelorarbeit" required="" requires="STEOP">
+	<group name="Modul Bachelorarbeit" required="true" requires="STEOP">
 		<cref name="SE Wissenschaftliches Arbeiten"/>
 		<cref name="PR Bachelorarbeit für Informatik und Wirtschaftsinformatik"/>
 	</group>
 </group>
 
-<group name="Wahlmodule" required="" minEcts="21">
+<group name="Wahlmodule" required="true" minEcts="21">
 	<group name="Modul Deklaratives Problemlösen" requires="STEOP">
 		<cref name="VO Deklaratives Problemlösen"/>
 		<cref name="UE Deklaratives Problemlösen"/>
