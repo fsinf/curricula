@@ -1,8 +1,18 @@
 # Machine-readable TU Informatics Curricula
 
-https://www.fsinf.at/files/curricula-xml/ -- list of curricula
+We maintain this data as XML because it can be easily validated against an XML
+Schema Definition (XSD) (e.g. `xmllint --schema curriculum.xsd e033534.xml`).
 
-https://www.fsinf.at/files/curricula-xml/e033534 -- a specific curriculum
+The XML files in this repository are available at:
+
+* https://www.fsinf.at/files/curricula/index.xml
+* https://www.fsinf.at/files/curricula/e033534.xml
+
+For more convenient consumption the files are also provided as JSON (they are
+converted with `tojson.py`):
+
+* https://www.fsinf.at/files/curricula/index.json
+* https://www.fsinf.at/files/curricula/e033534.json
 
 ## Background
 
@@ -25,7 +35,3 @@ provide an API for it.  For larger changes to a curriculum a special provision,
 is published that applies to all students admitted before the changes came into
 effect.  Although Übergangsbestimmungen are very important for students, TISS
 knows nothing about them.
-
-## Validation
-
-When changing curricula please validate them with `xmllint --schema curriculum.xsd <code>.xml`.
