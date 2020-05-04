@@ -77,7 +77,7 @@
 		</group>
 		<group name="Modul Freie Wahlfächer und Transferable Skills" required="true">
 			<group name="Freie Wahlfächer"><variable/></group>
-			<group name="Transferable Skills" minEcts="6"><variable/></group>
+			<group name="Transferable Skills" minEcts="6" required="true"><variable/></group>
 		</group>
 		<group name="Modul Bachelorarbeit" required="true" requires="STEOP">
 			<cref name="SE Wissenschaftliches Arbeiten"/>
