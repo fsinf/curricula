@@ -14,6 +14,11 @@ converted with `tojson.py`):
 * https://www.fsinf.at/files/curricula/index.json
 * https://www.fsinf.at/files/curricula/e033534.json
 
+For consumption from client-side JavaScript an API (`api.js`) is provided, that
+processes the JSON by linking the data together:
+
+https://www.fsinf.at/files/curricula/api.js
+
 ## Background
 
 As the [informatics students council](https://www.fsinf.at/) we want to provide
