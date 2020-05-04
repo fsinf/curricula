@@ -18,12 +18,23 @@ def handle_group(el, courses):
 		data['courses'] = [c.get('name') for c in el.findall('cref')]
 	return data
 
+def handle_course(el, semester_recommendations):
+	data = dict(
+		name=el.get('name'),
+		ects=float(el.get('ects')),
+	)
+	for idx, semester in enumerate(semester_recommendations, 1):
+		if data['name'] in semester:
+			data['semesterRecommendation'] = idx
+			break
+	return data
+
 def handle_curriculum(el):
 	data = el.attrib
-	data['courses'] = {c.get('name'): dict(ects=float(c.get('ects')), name=c.get('name')) for c in el.find('courses')}
+	data['semesterRecommendation'] = [[c.get('name') for c in s] for s in el.find('semester-recommendation')]
+	data['courses'] = {c.get('name'): handle_course(c, data['semesterRecommendation']) for c in el.find('courses')}
 	data['group'] = handle_group(el.find('group'), data['courses'])
 	data['constraints'] = [handle_group(g, data['courses']) for g in el.find('constraints')]
-	data['semesterRecommendation'] = [[c.get('name') for c in s] for s in el.find('semester-recommendation')]
 	return data
 
 curricula = ET.parse('index.xml').getroot()
