@@ -56,13 +56,13 @@
 			<xs:element name="variable" type="variableType"/>
 		</xs:choice>
 		<xs:attribute name="name" type="xs:string"/>
-		<xs:attribute name="minEcts" type="xs:float"/>
-		<xs:attribute name="maxEctsWithout" type="xs:float"/>
+		<xs:attribute name="minEcts" type="positiveFloat"/>
+		<xs:attribute name="maxEctsWithout" type="positiveFloat"/>
 		<xs:attribute name="required" type="xs:boolean"/>
 		<xs:attribute name="requires" type="xs:string"/>
 	</xs:complexType>
 	<xs:complexType name="courseType">
-		<xs:attribute name="ects" type="xs:float" use="required"/>
+		<xs:attribute name="ects" type="positiveFloat" use="required"/>
 		<xs:attribute name="name" type="xs:string" use="required"/>
 	</xs:complexType>
 	<xs:complexType name="crefType">
@@ -80,4 +80,9 @@
 			<xs:element name="cref" type="crefType" maxOccurs="unbounded"/>
 		</xs:choice>
 	</xs:complexType>
+	<xs:simpleType name="positiveFloat">
+		<xs:restriction base="xs:float">
+			<xs:minExclusive value="0"/>
+		</xs:restriction>
+	</xs:simpleType>
 </xs:schema>
