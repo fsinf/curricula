@@ -3,8 +3,8 @@
 	name="Bachelorstudium Software &amp; Information Engineering"
 	source="https://tiss.tuwien.ac.at/curriculum/public/curriculumFileDownload.xhtml?date=20191001T000000&amp;key=46100"
 >
-<group name="Abschluss" minEcts="180">
-	<group name="Pflichtmodule" required="true">
+<group name="study in total" minEcts="180">
+	<group name="compulsory modules" required="true">
 		<group name="Modul Algorithmen und Datenstrukturen" required="true">
 			<cref name="VU Algorithmen und Datenstrukturen"/>
 		</group>
@@ -85,7 +85,7 @@
 		</group>
 	</group>
 
-	<group name="Wahlmodule" required="true" minEcts="21">
+	<group name="elective modules" required="true" minEcts="21">
 		<group name="Modul Deklaratives Problemlösen" requires="STEOP">
 			<cref name="VO Deklaratives Problemlösen"/>
 			<cref name="UE Deklaratives Problemlösen"/>
