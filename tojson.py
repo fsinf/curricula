@@ -20,7 +20,7 @@ def handle_group(el, courses):
 
 def handle_curriculum(el):
 	data = el.attrib
-	data['courses'] = {c.get('name'): c.attrib for c in el.find('courses')}
+	data['courses'] = {c.get('name'): dict(ects=float(c.get('ects')), name=c.get('name')) for c in el.find('courses')}
 	data['group'] = handle_group(el.find('group'), data['courses'])
 	data['constraints'] = [handle_group(g, data['courses']) for g in el.find('constraints')]
 	data['semesterRecommendation'] = [[c.get('name') for c in s] for s in el.find('semester-recommendation')]
