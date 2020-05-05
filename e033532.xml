@@ -97,27 +97,6 @@
 				<cref name="VU Semistrukturierte Daten"/>
 				<cref name="VU Web Engineering"/>
 			</group>
-			<group name="Modul Fachübergreifende Qualifikationen" minEcts="9">
-				<cref name="VO EDV-Vertragsrecht"/>
-				<cref name="VO Einführung in Technik und Gesellschaft"/>
-				<cref name="VU Forschungsmethoden"/>
-				<cref name="VU Kommunikation und Moderation"/>
-				<cref name="VU Kooperatives Arbeiten"/>
-				<cref name="VU Präsentation und Moderation"/>
-				<cref name="VU Softskills für TechnikerInnen"/>
-				<cref name="VU Techniksoziologie und Technikpsychologie"/>
-				<cref name="VO Theorie und Praxis der Gruppenarbeit"/>
-				<cref name="SE Coaching als Führungsinstrument 2"/>
-				<cref name="SE Critical Algorithm Studies"/>
-				<cref name="SE Didaktik in der Informatik"/>
-				<cref name="SE Folgenabschätzung von Informationstechnologien"/>
-				<cref name="SE Kommunikation und Rhetorik 2"/>
-				<cref name="SE Rechtsinformationsrecherche im Internet"/>
-				<cref name="SE Scientific Presentation and Communication"/>
-				<cref name="SE Wissenschaftliche Methodik"/>
-				<cref name="PV Privatissimum aus Fachdidaktik Informatik"/>
-				<cref name="EX Exkursion"/>
-			</group>
 			<group name="Modul Multimedia-Produktion" requires="STEOP">
 				<cref name="VU Multimedia Produktion 1: Materialien und Tools"/>
 			</group>
