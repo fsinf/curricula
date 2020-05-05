@@ -298,10 +298,10 @@
 		<cref name="VU Einführung in wissensbasierte Systeme"/>
 		<cref name="VU Gesellschaftswissenschaftliche Grundlagen der Informatik"/>
 		<cref name="VU Interface and Interaction Design"/>
-		<cref name="PR Bachelorarbeit für Informatik und Wirtschaftsinformatik"/>
+		<cref name="SE Wissenschaftliches Arbeiten"/>
 	</semester>
 	<semester>
-		<cref name="SE Wissenschaftliches Arbeiten"/>
+		<cref name="PR Bachelorarbeit für Informatik und Wirtschaftsinformatik"/>
 	</semester>
 </semester-recommendation>
 </curriculum>
