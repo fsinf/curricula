@@ -1,307 +1,303 @@
-<curriculum
-	code="e033534"
-	name="Bachelorstudium Software &amp; Information Engineering"
-	source="https://tiss.tuwien.ac.at/curriculum/public/curriculumFileDownload.xhtml?date=20191001T000000&amp;key=46100"
->
-<group name="study in total" minEcts="180">
-	<group name="compulsory modules" required="true">
-		<group name="Modul Algebra und Diskrete Mathematik" required="true">
+<curriculum code="e033534" name="Bachelorstudium Software &amp; Information Engineering" source="https://tiss.tuwien.ac.at/curriculum/public/curriculumFileDownload.xhtml?date=20191001T000000&amp;key=46100">
+	<group name="study in total" minEcts="180">
+		<group name="compulsory modules" required="true">
+			<group name="Modul Algebra und Diskrete Mathematik" required="true">
+				<cref name="VO Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
+				<cref name="UE Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
+			</group>
+			<group name="Modul Algorithmen und Datenstrukturen" required="true">
+				<cref name="VU Algorithmen und Datenstrukturen"/>
+			</group>
+			<group name="Modul Analysis" required="true">
+				<cref name="VO Analysis für Informatik und Wirtschaftsinformatik"/>
+				<cref name="UE Analysis für Informatik und Wirtschaftsinformatik"/>
+			</group>
+			<group name="Modul Bachelorarbeit" required="true" requires="STEOP">
+				<cref name="SE Wissenschaftliches Arbeiten"/>
+				<cref name="PR Bachelorarbeit für Informatik und Wirtschaftsinformatik"/>
+			</group>
+			<group name="Modul Betriebssysteme" required="true" requires="STEOP">
+				<cref name="VO Betriebssysteme"/>
+				<cref name="UE Betriebssysteme"/>
+			</group>
+			<group name="Modul Datenbanksysteme" required="true" requires="STEOP">
+				<cref name="VU Datenbanksysteme"/>
+			</group>
+			<group name="Modul Denkweisen der Informatik" required="true">
+				<cref name="VU Denkweisen der Informatik"/>
+				<cref name="VU Orientierung Informatik und Wirtschaftsinformatik"/>
+			</group>
+			<group name="Modul Einführung in Visual Computing" required="true">
+				<cref name="VU Einführung in Visual Computing"/>
+			</group>
+			<group name="Modul Einführung in die Programmierung" required="true">
+				<cref name="VU Einführung in die Programmierung 1"/>
+				<cref name="VU Einführung in die Programmierung 2"/>
+			</group>
+			<group name="Modul Einführung in paralleles Rechnen" required="true" requires="STEOP">
+				<cref name="VU Parallel Computing"/>
+			</group>
+			<group name="Modul Freie Wahlfächer und Transferable Skills" required="true">
+				<group name="Freie Wahlfächer"><variable/></group>
+				<group name="Transferable Skills" minEcts="6" required="true"><variable/></group>
+			</group>
+			<group name="Modul Grundlagen intelligenter Systeme" required="true" requires="STEOP">
+				<cref name="VU Einführung in die Künstliche Intelligenz"/>
+				<cref name="VU Einführung in wissensbasierte Systeme"/>
+			</group>
+			<group name="Modul Kontexte der Systementwicklung" required="true" requires="STEOP">
+				<cref name="VU Gesellschaftswissenschaftliche Grundlagen der Informatik"/>
+				<cref name="VU Interface and Interaction Design"/>
+			</group>
+			<group name="Modul Modellierung" required="true">
+				<cref name="VU Formale Modellierung"/>
+				<cref name="VU Objektorientierte Modellierung"/>
+			</group>
+			<group name="Modul Programmierparadigmen" required="true" requires="STEOP">
+				<cref name="VU Funktionale Programmierung"/>
+				<cref name="VU Objektorientierte Programmiertechniken"/>
+			</group>
+			<group name="Modul Security und Recht" required="true" requires="STEOP">
+				<cref name="VU Daten- und Informatikrecht"/>
+				<cref name="VU Introduction to Security"/>
+			</group>
+			<group name="Modul Software Engineering und Projektmanagement" required="true" requires="STEOP">
+				<cref name="VO Software Engineering und Projektmanagement"/>
+				<cref name="PR Software Engineering und Projektmanagement"/>
+			</group>
+			<group name="Modul Statistik und Wahrscheinlichkeitstheorie" required="true" requires="STEOP">
+				<cref name="VO Statistik und Wahrscheinlichkeitstheorie"/>
+				<cref name="UE Statistik und Wahrscheinlichkeitstheorie"/>
+			</group>
+			<group name="Modul Technische Grundlagen für Informatik" required="true">
+				<cref name="VU Technische Grundlagen der Informatik"/>
+			</group>
+			<group name="Modul Theoretische Informatik und Logik" required="true" requires="STEOP">
+				<cref name="VU Theoretische Informatik und Logik"/>
+			</group>
+			<group name="Modul Verteilte Systeme" required="true" requires="STEOP">
+				<cref name="VO Verteilte Systeme"/>
+				<cref name="UE Verteilte Systeme"/>
+			</group>
+		</group>
+
+		<group name="elective modules" required="true" minEcts="21">
+			<group name="Modul Abstrakte Maschinen" requires="STEOP">
+				<cref name="VO Abstrakte Maschinen"/>
+				<cref name="UE Abstrakte Maschinen"/>
+			</group>
+			<group name="Modul Argumentieren und Beweisen" requires="STEOP">
+				<cref name="VU Argumentieren und Beweisen"/>
+			</group>
+			<group name="Modul Computernumerik" requires="STEOP">
+				<cref name="VO Computernumerik"/>
+				<cref name="UE Computernumerik"/>
+			</group>
+			<group name="Modul Deklaratives Problemlösen" requires="STEOP">
+				<cref name="VO Deklaratives Problemlösen"/>
+				<cref name="UE Deklaratives Problemlösen"/>
+			</group>
+			<group name="Modul Entwicklung von Web-Anwendungen" requires="STEOP">
+				<cref name="VU Semistrukturierte Daten"/>
+				<cref name="VU Web Engineering"/>
+			</group>
+			<group name="Modul Logikprogrammierung und Constraints" requires="STEOP">
+				<cref name="VU Logikprogrammierung und Constraints"/>
+			</group>
+			<group name="Modul Microcontroller" requires="STEOP">
+				<cref name="VU Microcontroller"/>
+			</group>
+			<group name="Modul Modelle und Modellierung von statistischen Daten">
+				<cref name="VU Computational Statistics"/>
+				<cref name="VU Fuzzy Modelle"/>
+			</group>
+			<group name="Modul Multivariate und computerintensive statistische Methoden" requires="STEOP">
+				<cref name="VO Multivariate Statistik"/>
+				<cref name="VU Statistische Simulation und computerintensive Methoden"/>
+				<cref name="UE Multivariate Statistik"/>
+			</group>
+			<group name="Modul Programm- und Systemverifikation" requires="STEOP">
+				<cref name="VU Programm- und Systemverifikation"/>
+			</group>
+			<group name="Modul Security" minEcts="6" requires="STEOP">
+				<cref name="VU Internet Security"/>
+				<cref name="VU Introduction to Modern Cryptography"/>
+				<cref name="VU Privacy Enhancing Technologies"/>
+				<cref name="VU Security for Systems Engineering"/>
+				<cref name="UE Introduction to Security"/>
+			</group>
+			<group name="Modul Softwareprojekt-Beobachtung und -Controlling" requires="STEOP">
+				<cref name="VU Softwareprojekt-Beobachtung und -Controlling"/>
+			</group>
+			<group name="Modul Softwarequalitätssicherung" requires="STEOP">
+				<cref name="VU Software-Qualitätssicherung"/>
+			</group>
+			<group name="Modul Statistische Datenanalyse" requires="STEOP">
+				<cref name="VU Datenanalyse"/>
+				<cref name="VU Statistical Computing"/>
+			</group>
+			<group name="Modul Usability Engineering and Mobile Interaction" requires="STEOP">
+				<cref name="VU Pilots in Mobile Interaction: User-centered Interaction Research and Evaluation"/>
+				<cref name="VU Usability Engineering"/>
+			</group>
+			<group name="Modul Vertrags-, Daten- und Informatikrecht" requires="STEOP">
+				<cref name="VU Vertrags- und Haftungsrecht"/>
+				<cref name="UE Daten- und Informatikrecht"/>
+			</group>
+			<group name="Modul Wissensrepräsentation" requires="STEOP">
+				<cref name="VO Logik für Wissensrepräsentation"/>
+				<cref name="UE Logik für Wissensrepräsentation"/>
+			</group>
+			<group name="Modul Zuverlässige Echtzeitsysteme" requires="STEOP">
+				<cref name="VU Dependable Systems"/>
+				<cref name="VO Echtzeitsysteme"/>
+			</group>
+			<group name="Modul Übersetzerbau" requires="STEOP">
+				<cref name="VU Übersetzerbau"/>
+			</group>
+			<group name="Modul Übungen zu Visual Computing" requires="STEOP">
+				<cref name="UE Einführung in die Computergraphik"/>
+				<cref name="UE Einführung in die digitale Bildverarbeitung"/>
+			</group>
+		</group>
+	</group>
+	<constraints>
+		<group name="STEOP" maxEctsWithout="22">
+			<group name="STEOP core" required="true">
+				<cref name="VO Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
+				<cref name="VU Einführung in die Programmierung 1"/>
+				<cref name="VU Orientierung Informatik und Wirtschaftsinformatik"/>
+			</group>
+
+			<group name="STEOP pool" minEcts="6">
+				<cref name="UE Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
+				<cref name="VO Analysis für Informatik und Wirtschaftsinformatik"/>
+				<cref name="UE Analysis für Informatik und Wirtschaftsinformatik"/>
+				<cref name="VU Denkweisen der Informatik"/>
+				<cref name="VU Formale Modellierung"/>
+				<cref name="VU Objektorientierte Modellierung"/>
+				<cref name="VU Technische Grundlagen der Informatik"/>
+			</group>
+		</group>
+	</constraints>
+	<courses>
+		<course ects="3.0" name="UE Abstrakte Maschinen"/>
+		<course ects="3.0" name="VO Abstrakte Maschinen"/>
+		<course ects="5.0" name="UE Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
+		<course ects="4.0" name="VO Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
+		<course ects="8.0" name="VU Algorithmen und Datenstrukturen"/>
+		<course ects="4.0" name="UE Analysis für Informatik und Wirtschaftsinformatik"/>
+		<course ects="2.0" name="VO Analysis für Informatik und Wirtschaftsinformatik"/>
+		<course ects="6.0" name="VU Argumentieren und Beweisen"/>
+		<course ects="10.0" name="PR Bachelorarbeit für Informatik und Wirtschaftsinformatik"/>
+		<course ects="4.0" name="UE Betriebssysteme"/>
+		<course ects="2.0" name="VO Betriebssysteme"/>
+		<course ects="4.5" name="VU Computational Statistics"/>
+		<course ects="1.5" name="UE Computernumerik"/>
+		<course ects="3.0" name="VO Computernumerik"/>
+		<course ects="3.0" name="UE Daten- und Informatikrecht"/>
+		<course ects="3.0" name="VU Daten- und Informatikrecht"/>
+		<course ects="3.0" name="VU Datenanalyse"/>
+		<course ects="6.0" name="VU Datenbanksysteme"/>
+		<course ects="3.0" name="UE Deklaratives Problemlösen"/>
+		<course ects="3.0" name="VO Deklaratives Problemlösen"/>
+		<course ects="5.5" name="VU Denkweisen der Informatik"/>
+		<course ects="3.0" name="VU Dependable Systems"/>
+		<course ects="2.0" name="VO Echtzeitsysteme"/>
+		<course ects="6.0" name="VU Einführung in Visual Computing"/>
+		<course ects="3.0" name="UE Einführung in die Computergraphik"/>
+		<course ects="3.0" name="VU Einführung in die Künstliche Intelligenz"/>
+		<course ects="5.5" name="VU Einführung in die Programmierung 1"/>
+		<course ects="4.0" name="VU Einführung in die Programmierung 2"/>
+		<course ects="3.0" name="UE Einführung in die digitale Bildverarbeitung"/>
+		<course ects="5.0" name="VU Einführung in wissensbasierte Systeme"/>
+		<course ects="3.0" name="VU Formale Modellierung"/>
+		<course ects="3.0" name="VU Funktionale Programmierung"/>
+		<course ects="3.0" name="VU Fuzzy Modelle"/>
+		<course ects="3.0" name="VU Gesellschaftswissenschaftliche Grundlagen der Informatik"/>
+		<course ects="3.0" name="VU Interface and Interaction Design"/>
+		<course ects="3.0" name="VU Internet Security"/>
+		<course ects="3.0" name="VU Introduction to Modern Cryptography"/>
+		<course ects="3.0" name="UE Introduction to Security"/>
+		<course ects="3.0" name="VU Introduction to Security"/>
+		<course ects="3.0" name="UE Logik für Wissensrepräsentation"/>
+		<course ects="3.0" name="VO Logik für Wissensrepräsentation"/>
+		<course ects="6.0" name="VU Logikprogrammierung und Constraints"/>
+		<course ects="7.0" name="VU Microcontroller"/>
+		<course ects="1.5" name="UE Multivariate Statistik"/>
+		<course ects="4.5" name="VO Multivariate Statistik"/>
+		<course ects="3.0" name="VU Objektorientierte Modellierung"/>
+		<course ects="3.0" name="VU Objektorientierte Programmiertechniken"/>
+		<course ects="1.0" name="VU Orientierung Informatik und Wirtschaftsinformatik"/>
+		<course ects="6.0" name="VU Parallel Computing"/>
+		<course ects="3.0" name="VU Pilots in Mobile Interaction: User-centered Interaction Research and Evaluation"/>
+		<course ects="3.0" name="VU Privacy Enhancing Technologies"/>
+		<course ects="6.0" name="VU Programm- und Systemverifikation"/>
+		<course ects="3.0" name="VU Security for Systems Engineering"/>
+		<course ects="3.0" name="VU Semistrukturierte Daten"/>
+		<course ects="6.0" name="PR Software Engineering und Projektmanagement"/>
+		<course ects="3.0" name="VO Software Engineering und Projektmanagement"/>
+		<course ects="6.0" name="VU Software-Qualitätssicherung"/>
+		<course ects="6.0" name="VU Softwareprojekt-Beobachtung und -Controlling"/>
+		<course ects="3.0" name="VU Statistical Computing"/>
+		<course ects="3.0" name="UE Statistik und Wahrscheinlichkeitstheorie"/>
+		<course ects="3.0" name="VO Statistik und Wahrscheinlichkeitstheorie"/>
+		<course ects="3.0" name="VU Statistische Simulation und computerintensive Methoden"/>
+		<course ects="6.0" name="VU Technische Grundlagen der Informatik"/>
+		<course ects="6.0" name="VU Theoretische Informatik und Logik"/>
+		<course ects="3.0" name="VU Usability Engineering"/>
+		<course ects="3.0" name="UE Verteilte Systeme"/>
+		<course ects="3.0" name="VO Verteilte Systeme"/>
+		<course ects="3.0" name="VU Vertrags- und Haftungsrecht"/>
+		<course ects="3.0" name="VU Web Engineering"/>
+		<course ects="3.0" name="SE Wissenschaftliches Arbeiten"/>
+		<course ects="6.0" name="VU Übersetzerbau"/>
+	</courses>
+	<semester-recommendation>
+		<semester>
 			<cref name="VO Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
-			<cref name="UE Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
-		</group>
-		<group name="Modul Algorithmen und Datenstrukturen" required="true">
-			<cref name="VU Algorithmen und Datenstrukturen"/>
-		</group>
-		<group name="Modul Analysis" required="true">
+			<cref name="VU Einführung in die Programmierung 1"/>
+			<cref name="VU Orientierung Informatik und Wirtschaftsinformatik"/>
+			<cref name="VU Denkweisen der Informatik"/>
+			<cref name="VU Technische Grundlagen der Informatik"/>
+		</semester>
+		<semester>
+			<cref name="VU Einführung in die Programmierung 2"/>
 			<cref name="VO Analysis für Informatik und Wirtschaftsinformatik"/>
 			<cref name="UE Analysis für Informatik und Wirtschaftsinformatik"/>
-		</group>
-		<group name="Modul Bachelorarbeit" required="true" requires="STEOP">
-			<cref name="SE Wissenschaftliches Arbeiten"/>
-			<cref name="PR Bachelorarbeit für Informatik und Wirtschaftsinformatik"/>
-		</group>
-		<group name="Modul Betriebssysteme" required="true" requires="STEOP">
-			<cref name="VO Betriebssysteme"/>
-			<cref name="UE Betriebssysteme"/>
-		</group>
-		<group name="Modul Datenbanksysteme" required="true" requires="STEOP">
-			<cref name="VU Datenbanksysteme"/>
-		</group>
-		<group name="Modul Denkweisen der Informatik" required="true">
-			<cref name="VU Denkweisen der Informatik"/>
-			<cref name="VU Orientierung Informatik und Wirtschaftsinformatik"/>
-		</group>
-		<group name="Modul Einführung in Visual Computing" required="true">
+			<cref name="VU Algorithmen und Datenstrukturen"/>
 			<cref name="VU Einführung in Visual Computing"/>
-		</group>
-		<group name="Modul Einführung in die Programmierung" required="true">
-			<cref name="VU Einführung in die Programmierung 1"/>
-			<cref name="VU Einführung in die Programmierung 2"/>
-		</group>
-		<group name="Modul Einführung in paralleles Rechnen" required="true" requires="STEOP">
-			<cref name="VU Parallel Computing"/>
-		</group>
-		<group name="Modul Freie Wahlfächer und Transferable Skills" required="true">
-			<group name="Freie Wahlfächer"><variable/></group>
-			<group name="Transferable Skills" minEcts="6" required="true"><variable/></group>
-		</group>
-		<group name="Modul Grundlagen intelligenter Systeme" required="true" requires="STEOP">
-			<cref name="VU Einführung in die Künstliche Intelligenz"/>
-			<cref name="VU Einführung in wissensbasierte Systeme"/>
-		</group>
-		<group name="Modul Kontexte der Systementwicklung" required="true" requires="STEOP">
-			<cref name="VU Gesellschaftswissenschaftliche Grundlagen der Informatik"/>
-			<cref name="VU Interface and Interaction Design"/>
-		</group>
-		<group name="Modul Modellierung" required="true">
 			<cref name="VU Formale Modellierung"/>
 			<cref name="VU Objektorientierte Modellierung"/>
-		</group>
-		<group name="Modul Programmierparadigmen" required="true" requires="STEOP">
+		</semester>
+		<semester>
 			<cref name="VU Funktionale Programmierung"/>
 			<cref name="VU Objektorientierte Programmiertechniken"/>
-		</group>
-		<group name="Modul Security und Recht" required="true" requires="STEOP">
-			<cref name="VU Daten- und Informatikrecht"/>
-			<cref name="VU Introduction to Security"/>
-		</group>
-		<group name="Modul Software Engineering und Projektmanagement" required="true" requires="STEOP">
-			<cref name="VO Software Engineering und Projektmanagement"/>
-			<cref name="PR Software Engineering und Projektmanagement"/>
-		</group>
-		<group name="Modul Statistik und Wahrscheinlichkeitstheorie" required="true" requires="STEOP">
 			<cref name="VO Statistik und Wahrscheinlichkeitstheorie"/>
 			<cref name="UE Statistik und Wahrscheinlichkeitstheorie"/>
-		</group>
-		<group name="Modul Technische Grundlagen für Informatik" required="true">
-			<cref name="VU Technische Grundlagen der Informatik"/>
-		</group>
-		<group name="Modul Theoretische Informatik und Logik" required="true" requires="STEOP">
+			<cref name="VU Datenbanksysteme"/>
 			<cref name="VU Theoretische Informatik und Logik"/>
-		</group>
-		<group name="Modul Verteilte Systeme" required="true" requires="STEOP">
+			<cref name="VO Betriebssysteme"/>
+			<cref name="UE Betriebssysteme"/>
+		</semester>
+		<semester>
+			<cref name="VU Parallel Computing"/>
+			<cref name="VU Daten- und Informatikrecht"/>
+			<cref name="VO Software Engineering und Projektmanagement"/>
+			<cref name="PR Software Engineering und Projektmanagement"/>
+			<cref name="VU Einführung in die Künstliche Intelligenz"/>
+		</semester>
+		<semester>
 			<cref name="VO Verteilte Systeme"/>
 			<cref name="UE Verteilte Systeme"/>
-		</group>
-	</group>
-
-	<group name="elective modules" required="true" minEcts="21">
-		<group name="Modul Abstrakte Maschinen" requires="STEOP">
-			<cref name="VO Abstrakte Maschinen"/>
-			<cref name="UE Abstrakte Maschinen"/>
-		</group>
-		<group name="Modul Argumentieren und Beweisen" requires="STEOP">
-			<cref name="VU Argumentieren und Beweisen"/>
-		</group>
-		<group name="Modul Computernumerik" requires="STEOP">
-			<cref name="VO Computernumerik"/>
-			<cref name="UE Computernumerik"/>
-		</group>
-		<group name="Modul Deklaratives Problemlösen" requires="STEOP">
-			<cref name="VO Deklaratives Problemlösen"/>
-			<cref name="UE Deklaratives Problemlösen"/>
-		</group>
-		<group name="Modul Entwicklung von Web-Anwendungen" requires="STEOP">
-			<cref name="VU Semistrukturierte Daten"/>
-			<cref name="VU Web Engineering"/>
-		</group>
-		<group name="Modul Logikprogrammierung und Constraints" requires="STEOP">
-			<cref name="VU Logikprogrammierung und Constraints"/>
-		</group>
-		<group name="Modul Microcontroller" requires="STEOP">
-			<cref name="VU Microcontroller"/>
-		</group>
-		<group name="Modul Modelle und Modellierung von statistischen Daten">
-			<cref name="VU Computational Statistics"/>
-			<cref name="VU Fuzzy Modelle"/>
-		</group>
-		<group name="Modul Multivariate und computerintensive statistische Methoden" requires="STEOP">
-			<cref name="VO Multivariate Statistik"/>
-			<cref name="VU Statistische Simulation und computerintensive Methoden"/>
-			<cref name="UE Multivariate Statistik"/>
-		</group>
-		<group name="Modul Programm- und Systemverifikation" requires="STEOP">
-			<cref name="VU Programm- und Systemverifikation"/>
-		</group>
-		<group name="Modul Security" minEcts="6" requires="STEOP">
-			<cref name="VU Internet Security"/>
-			<cref name="VU Introduction to Modern Cryptography"/>
-			<cref name="VU Privacy Enhancing Technologies"/>
-			<cref name="VU Security for Systems Engineering"/>
-			<cref name="UE Introduction to Security"/>
-		</group>
-		<group name="Modul Softwareprojekt-Beobachtung und -Controlling" requires="STEOP">
-			<cref name="VU Softwareprojekt-Beobachtung und -Controlling"/>
-		</group>
-		<group name="Modul Softwarequalitätssicherung" requires="STEOP">
-			<cref name="VU Software-Qualitätssicherung"/>
-		</group>
-		<group name="Modul Statistische Datenanalyse" requires="STEOP">
-			<cref name="VU Datenanalyse"/>
-			<cref name="VU Statistical Computing"/>
-		</group>
-		<group name="Modul Usability Engineering and Mobile Interaction" requires="STEOP">
-			<cref name="VU Pilots in Mobile Interaction: User-centered Interaction Research and Evaluation"/>
-			<cref name="VU Usability Engineering"/>
-		</group>
-		<group name="Modul Vertrags-, Daten- und Informatikrecht" requires="STEOP">
-			<cref name="VU Vertrags- und Haftungsrecht"/>
-			<cref name="UE Daten- und Informatikrecht"/>
-		</group>
-		<group name="Modul Wissensrepräsentation" requires="STEOP">
-			<cref name="VO Logik für Wissensrepräsentation"/>
-			<cref name="UE Logik für Wissensrepräsentation"/>
-		</group>
-		<group name="Modul Zuverlässige Echtzeitsysteme" requires="STEOP">
-			<cref name="VU Dependable Systems"/>
-			<cref name="VO Echtzeitsysteme"/>
-		</group>
-		<group name="Modul Übersetzerbau" requires="STEOP">
-			<cref name="VU Übersetzerbau"/>
-		</group>
-		<group name="Modul Übungen zu Visual Computing" requires="STEOP">
-			<cref name="UE Einführung in die Computergraphik"/>
-			<cref name="UE Einführung in die digitale Bildverarbeitung"/>
-		</group>
-	</group>
-</group>
-<constraints>
-	<group name="STEOP" maxEctsWithout="22">
-		<group name="STEOP core" required="true">
-			<cref name="VO Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
-			<cref name="VU Einführung in die Programmierung 1"/>
-			<cref name="VU Orientierung Informatik und Wirtschaftsinformatik"/>
-		</group>
-
-		<group name="STEOP pool" minEcts="6">
-			<cref name="UE Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
-			<cref name="VO Analysis für Informatik und Wirtschaftsinformatik"/>
-			<cref name="UE Analysis für Informatik und Wirtschaftsinformatik"/>
-			<cref name="VU Denkweisen der Informatik"/>
-			<cref name="VU Formale Modellierung"/>
-			<cref name="VU Objektorientierte Modellierung"/>
-			<cref name="VU Technische Grundlagen der Informatik"/>
-		</group>
-	</group>
-</constraints>
-<courses>
-	<course ects="3.0" name="UE Abstrakte Maschinen"/>
-	<course ects="3.0" name="VO Abstrakte Maschinen"/>
-	<course ects="5.0" name="UE Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
-	<course ects="4.0" name="VO Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
-	<course ects="8.0" name="VU Algorithmen und Datenstrukturen"/>
-	<course ects="4.0" name="UE Analysis für Informatik und Wirtschaftsinformatik"/>
-	<course ects="2.0" name="VO Analysis für Informatik und Wirtschaftsinformatik"/>
-	<course ects="6.0" name="VU Argumentieren und Beweisen"/>
-	<course ects="10.0" name="PR Bachelorarbeit für Informatik und Wirtschaftsinformatik"/>
-	<course ects="4.0" name="UE Betriebssysteme"/>
-	<course ects="2.0" name="VO Betriebssysteme"/>
-	<course ects="4.5" name="VU Computational Statistics"/>
-	<course ects="1.5" name="UE Computernumerik"/>
-	<course ects="3.0" name="VO Computernumerik"/>
-	<course ects="3.0" name="UE Daten- und Informatikrecht"/>
-	<course ects="3.0" name="VU Daten- und Informatikrecht"/>
-	<course ects="3.0" name="VU Datenanalyse"/>
-	<course ects="6.0" name="VU Datenbanksysteme"/>
-	<course ects="3.0" name="UE Deklaratives Problemlösen"/>
-	<course ects="3.0" name="VO Deklaratives Problemlösen"/>
-	<course ects="5.5" name="VU Denkweisen der Informatik"/>
-	<course ects="3.0" name="VU Dependable Systems"/>
-	<course ects="2.0" name="VO Echtzeitsysteme"/>
-	<course ects="6.0" name="VU Einführung in Visual Computing"/>
-	<course ects="3.0" name="UE Einführung in die Computergraphik"/>
-	<course ects="3.0" name="VU Einführung in die Künstliche Intelligenz"/>
-	<course ects="5.5" name="VU Einführung in die Programmierung 1"/>
-	<course ects="4.0" name="VU Einführung in die Programmierung 2"/>
-	<course ects="3.0" name="UE Einführung in die digitale Bildverarbeitung"/>
-	<course ects="5.0" name="VU Einführung in wissensbasierte Systeme"/>
-	<course ects="3.0" name="VU Formale Modellierung"/>
-	<course ects="3.0" name="VU Funktionale Programmierung"/>
-	<course ects="3.0" name="VU Fuzzy Modelle"/>
-	<course ects="3.0" name="VU Gesellschaftswissenschaftliche Grundlagen der Informatik"/>
-	<course ects="3.0" name="VU Interface and Interaction Design"/>
-	<course ects="3.0" name="VU Internet Security"/>
-	<course ects="3.0" name="VU Introduction to Modern Cryptography"/>
-	<course ects="3.0" name="UE Introduction to Security"/>
-	<course ects="3.0" name="VU Introduction to Security"/>
-	<course ects="3.0" name="UE Logik für Wissensrepräsentation"/>
-	<course ects="3.0" name="VO Logik für Wissensrepräsentation"/>
-	<course ects="6.0" name="VU Logikprogrammierung und Constraints"/>
-	<course ects="7.0" name="VU Microcontroller"/>
-	<course ects="1.5" name="UE Multivariate Statistik"/>
-	<course ects="4.5" name="VO Multivariate Statistik"/>
-	<course ects="3.0" name="VU Objektorientierte Modellierung"/>
-	<course ects="3.0" name="VU Objektorientierte Programmiertechniken"/>
-	<course ects="1.0" name="VU Orientierung Informatik und Wirtschaftsinformatik"/>
-	<course ects="6.0" name="VU Parallel Computing"/>
-	<course ects="3.0" name="VU Pilots in Mobile Interaction: User-centered Interaction Research and Evaluation"/>
-	<course ects="3.0" name="VU Privacy Enhancing Technologies"/>
-	<course ects="6.0" name="VU Programm- und Systemverifikation"/>
-	<course ects="3.0" name="VU Security for Systems Engineering"/>
-	<course ects="3.0" name="VU Semistrukturierte Daten"/>
-	<course ects="6.0" name="PR Software Engineering und Projektmanagement"/>
-	<course ects="3.0" name="VO Software Engineering und Projektmanagement"/>
-	<course ects="6.0" name="VU Software-Qualitätssicherung"/>
-	<course ects="6.0" name="VU Softwareprojekt-Beobachtung und -Controlling"/>
-	<course ects="3.0" name="VU Statistical Computing"/>
-	<course ects="3.0" name="UE Statistik und Wahrscheinlichkeitstheorie"/>
-	<course ects="3.0" name="VO Statistik und Wahrscheinlichkeitstheorie"/>
-	<course ects="3.0" name="VU Statistische Simulation und computerintensive Methoden"/>
-	<course ects="6.0" name="VU Technische Grundlagen der Informatik"/>
-	<course ects="6.0" name="VU Theoretische Informatik und Logik"/>
-	<course ects="3.0" name="VU Usability Engineering"/>
-	<course ects="3.0" name="UE Verteilte Systeme"/>
-	<course ects="3.0" name="VO Verteilte Systeme"/>
-	<course ects="3.0" name="VU Vertrags- und Haftungsrecht"/>
-	<course ects="3.0" name="VU Web Engineering"/>
-	<course ects="3.0" name="SE Wissenschaftliches Arbeiten"/>
-	<course ects="6.0" name="VU Übersetzerbau"/>
-</courses>
-<semester-recommendation>
-	<semester>
-		<cref name="VO Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
-		<cref name="VU Einführung in die Programmierung 1"/>
-		<cref name="VU Orientierung Informatik und Wirtschaftsinformatik"/>
-		<cref name="VU Denkweisen der Informatik"/>
-		<cref name="VU Technische Grundlagen der Informatik"/>
-	</semester>
-	<semester>
-		<cref name="VU Einführung in die Programmierung 2"/>
-		<cref name="VO Analysis für Informatik und Wirtschaftsinformatik"/>
-		<cref name="UE Analysis für Informatik und Wirtschaftsinformatik"/>
-		<cref name="VU Algorithmen und Datenstrukturen"/>
-		<cref name="VU Einführung in Visual Computing"/>
-		<cref name="VU Formale Modellierung"/>
-		<cref name="VU Objektorientierte Modellierung"/>
-	</semester>
-	<semester>
-		<cref name="VU Funktionale Programmierung"/>
-		<cref name="VU Objektorientierte Programmiertechniken"/>
-		<cref name="VO Statistik und Wahrscheinlichkeitstheorie"/>
-		<cref name="UE Statistik und Wahrscheinlichkeitstheorie"/>
-		<cref name="VU Datenbanksysteme"/>
-		<cref name="VU Theoretische Informatik und Logik"/>
-		<cref name="VO Betriebssysteme"/>
-		<cref name="UE Betriebssysteme"/>
-	</semester>
-	<semester>
-		<cref name="VU Parallel Computing"/>
-		<cref name="VU Daten- und Informatikrecht"/>
-		<cref name="VO Software Engineering und Projektmanagement"/>
-		<cref name="PR Software Engineering und Projektmanagement"/>
-		<cref name="VU Einführung in die Künstliche Intelligenz"/>
-	</semester>
-	<semester>
-		<cref name="VO Verteilte Systeme"/>
-		<cref name="UE Verteilte Systeme"/>
-		<cref name="VU Introduction to Security"/>
-		<cref name="VU Einführung in wissensbasierte Systeme"/>
-		<cref name="VU Gesellschaftswissenschaftliche Grundlagen der Informatik"/>
-		<cref name="VU Interface and Interaction Design"/>
-		<cref name="SE Wissenschaftliches Arbeiten"/>
-	</semester>
-	<semester>
-		<cref name="PR Bachelorarbeit für Informatik und Wirtschaftsinformatik"/>
-	</semester>
-</semester-recommendation>
+			<cref name="VU Introduction to Security"/>
+			<cref name="VU Einführung in wissensbasierte Systeme"/>
+			<cref name="VU Gesellschaftswissenschaftliche Grundlagen der Informatik"/>
+			<cref name="VU Interface and Interaction Design"/>
+			<cref name="SE Wissenschaftliches Arbeiten"/>
+		</semester>
+		<semester>
+			<cref name="PR Bachelorarbeit für Informatik und Wirtschaftsinformatik"/>
+		</semester>
+	</semester-recommendation>
 </curriculum>
