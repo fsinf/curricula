@@ -1,23 +1,26 @@
 # Machine-readable TU Informatics Curricula
 
-We maintain this data as XML because it can be easily validated against an XML
-Schema Definition (XSD) (e.g. `xmllint --schema curriculum.xsd e033534.xml`).
+The [Fachschaft Informatik](https://www.fsinf.at/) maintains machine-readable
+versions of the TU Informatics Curricula because the faculty of informatics
+fails to do so. The data is maintained in XML [on GitHub](https://github.com/fsinf/curricula)
+and converted to JSON for easier consumption.
 
-The XML files in this repository are available at:
+**THE DATA IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.**
 
-* https://www.fsinf.at/files/curricula/index.xml
-* https://www.fsinf.at/files/curricula/e033534.xml
+For the authoritative sources please consult the official curricula PDFs,
+the [*Übergangsbestimmungen*][ubs] and the [TISS newsletter][newsletter].
+If something seems off with an XML or JSON version, please [open an GitHub issue](https://github.com/fsinf/curricula/issues).
 
-For more convenient consumption the files are also provided as JSON (they are
-converted with `tojson.py`):
+<!--table-->
 
-* https://www.fsinf.at/files/curricula/index.json
-* https://www.fsinf.at/files/curricula/e033534.json
+The index of all curriculas is available as
+[HTML](https://www.fsinf.at/files/curricula/),
+[XML](https://www.fsinf.at/files/curricula/index.xml) and
+[JSON](https://www.fsinf.at/files/curricula/index.json).
 
-For consumption from client-side JavaScript an API (`api.js`) is provided, that
-processes the JSON by linking the data together:
-
-https://www.fsinf.at/files/curricula/api.js
+Additionally a [JavaScript API](https://www.fsinf.at/files/curricula/api.js) is provided.
+You can try it out on the [web index](https://www.fsinf.at/files/curricula/)
+by opening the developer console with F12 and running `await Curricula.getCurriculum('e033534')`.
 
 ## Background
 
@@ -31,12 +34,23 @@ The legally binding TU Vienna curricula are only published as PDFs in TISS.
 The semantics of these PDFs can only be extracted by relying on their
 formatting which is not only inconsistent but also may change.
 It is also important to note that the curricula PDFs can be out of date
-because smaller changes are only announced in the [newsletter](https://tiss.tuwien.ac.at/mbl/main/)
+because smaller changes are only announced in the [newsletter][newsletter]
 and updated in TISS but don't make it into the PDFs.
 
 While TISS has the curricula data in a machine-readable format, it does not
 provide an API for it.  For larger changes to a curriculum a special provision,
-[*Übergangsbestimmung*](http://www.informatik.tuwien.ac.at/studium/angebot/studienplaene),
+[*Übergangsbestimmung*][ubs],
 is published that applies to all students admitted before the changes came into
 effect.  Although Übergangsbestimmungen are very important for students, TISS
 knows nothing about them.
+
+[ubs]: http://www.informatik.tuwien.ac.at/studium/angebot/studienplaene
+[newsletter]: https://tiss.tuwien.ac.at/mbl/main/
+
+## Contibuting
+
+Issues and pull requests are welcome!
+
+Please validate curricula against the schema, e.g.
+
+	xmllint --schema curriculum.xsd e033534.xml
