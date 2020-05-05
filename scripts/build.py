@@ -72,4 +72,8 @@ with open('index.html', 'w') as f:
 	table += '</table><script src="api.js"></script>'
 
 	with open('README.md') as readme:
+		f.write('<!doctype html><html><head>')
+		f.write('<meta name="viewport" content="width=device-width, initial-scale=1">')
+		f.write('<meta charset=utf-8></head><body>')
 		f.write(markdown.markdown(readme.read()).replace('<!--table-->', table))
+		f.write('</body></html>')

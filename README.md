@@ -47,7 +47,7 @@ knows nothing about them.
 [ubs]: http://www.informatik.tuwien.ac.at/studium/angebot/studienplaene
 [newsletter]: https://tiss.tuwien.ac.at/mbl/main/
 
-## Contibuting
+## Contributing
 
 Issues and pull requests are welcome!
 
