@@ -169,22 +169,17 @@
 		<course ects="10.0" name="PR Bachelorarbeit für Informatik und Wirtschaftsinformatik"/>
 		<course ects="4.0" name="UE Betriebssysteme"/>
 		<course ects="2.0" name="VO Betriebssysteme"/>
-		<course ects="3.0" name="SE Coaching als Führungsinstrument 2"/>
 		<course ects="3.0" name="VU Computer Networks"/>
 		<course ects="1.5" name="UE Computernumerik"/>
 		<course ects="3.0" name="VO Computernumerik"/>
-		<course ects="3.0" name="SE Critical Algorithm Studies"/>
 		<course ects="6.0" name="VU Datenbanksysteme"/>
 		<course ects="5.5" name="VU Denkweisen der Informatik"/>
 		<course ects="3.0" name="VU Dependable Systems"/>
 		<course ects="4.0" name="LU Dezentrale Automation"/>
 		<course ects="2.0" name="VO Dezentrale Automation"/>
-		<course ects="3.0" name="SE Didaktik in der Informatik"/>
 		<course ects="3.0" name="VO Digital Design"/>
 		<course ects="7.5" name="LU Digital Design and Computer Architecture"/>
-		<course ects="1.5" name="VO EDV-Vertragsrecht"/>
 		<course ects="2.0" name="VO Echtzeitsysteme"/>
-		<course ects="3.0" name="VO Einführung in Technik und Gesellschaft"/>
 		<course ects="3.0" name="VU Einführung in die Künstliche Intelligenz"/>
 		<course ects="3.0" name="UE Einführung in die Mustererkennung"/>
 		<course ects="3.0" name="VO Einführung in die Mustererkennung"/>
@@ -194,19 +189,13 @@
 		<course ects="5.0" name="VU Einführung in wissensbasierte Systeme"/>
 		<course ects="3.5" name="LU Elektrotechnische Grundlagen"/>
 		<course ects="4.0" name="VU Elektrotechnische Grundlagen"/>
-		<course ects="3.0" name="EX Exkursion"/>
-		<course ects="3.0" name="SE Folgenabschätzung von Informationstechnologien"/>
 		<course ects="3.0" name="VU Formale Modellierung"/>
-		<course ects="3.0" name="VU Forschungsmethoden"/>
 		<course ects="3.0" name="VU Funktionale Programmierung"/>
 		<course ects="3.0" name="VO Grundlagen der Unternehmensführung"/>
 		<course ects="3.0" name="VU Grundlagen digitaler Systeme"/>
 		<course ects="1.5" name="VO Hardware Modeling"/>
 		<course ects="3.0" name="UE Introduction to Security"/>
 		<course ects="3.0" name="VU Introduction to Security"/>
-		<course ects="3.0" name="VU Kommunikation und Moderation"/>
-		<course ects="3.0" name="SE Kommunikation und Rhetorik 2"/>
-		<course ects="3.0" name="VU Kooperatives Arbeiten"/>
 		<course ects="3.0" name="VU Kosten- und Leistungsrechnung"/>
 		<course ects="7.0" name="VU Microcontroller"/>
 		<course ects="3.0" name="VU Modellbildung"/>
@@ -215,26 +204,18 @@
 		<course ects="1.0" name="VU Orientierung Informatik und Wirtschaftsinformatik"/>
 		<course ects="6.0" name="VU Parallel Computing"/>
 		<course ects="6.0" name="PR Praktikum Technische Informatik"/>
-		<course ects="4.0" name="PV Privatissimum aus Fachdidaktik Informatik"/>
 		<course ects="6.0" name="VU Programm- und Systemverifikation"/>
 		<course ects="3.0" name="UE Programmierung in die Telekommunikation"/>
-		<course ects="3.0" name="VU Präsentation und Moderation"/>
 		<course ects="3.0" name="VO Rechnerstrukturen"/>
 		<course ects="2.0" name="VU Rechnungswesen"/>
-		<course ects="3.0" name="SE Rechtsinformationsrecherche im Internet"/>
 		<course ects="1.5" name="LU Regelungstechnik"/>
-		<course ects="3.0" name="SE Scientific Presentation and Communication"/>
 		<course ects="4.5" name="VU Signale und Systeme 1"/>
 		<course ects="4.0" name="VU Signale und Systeme 2"/>
-		<course ects="3.0" name="VU Softskills für TechnikerInnen"/>
-		<course ects="3.0" name="VU Techniksoziologie und Technikpsychologie"/>
 		<course ects="6.0" name="VU Theoretische Informatik und Logik"/>
-		<course ects="3.0" name="VO Theorie und Praxis der Gruppenarbeit"/>
 		<course ects="3.0" name="UE Verteilte Systeme"/>
 		<course ects="3.0" name="VO Verteilte Systeme"/>
 		<course ects="3.5" name="UE Wahrscheinlichkeitstheorie und Stochastische Prozesse für Informatik"/>
 		<course ects="4.0" name="VO Wahrscheinlichkeitstheorie und Stochastische Prozesse für Informatik"/>
-		<course ects="3.0" name="SE Wissenschaftliche Methodik"/>
 		<course ects="6.0" name="VU Übersetzerbau"/>
 	</courses>
 	<semester-recommendation>
