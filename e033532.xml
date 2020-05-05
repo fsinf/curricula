@@ -1,0 +1,299 @@
+<curriculum
+	code="e033532"
+	name="Bachelorstudium Medieninformatik und Visual Computing"
+	source="https://tiss.tuwien.ac.at/curriculum/public/curriculumFileDownload.xhtml?date=20200301T000000&amp;key=45669"
+>
+<group name="study in total" minEcts="180">
+	<group name="compulsory modules" required="true">
+		<group name="Modul Algebra und Diskrete Mathematik" required="true">
+			<cref name="VO Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
+			<cref name="UE Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
+		</group>
+		<group name="Modul Analysis" required="true">
+			<cref name="VO Analysis für Informatik und Wirtschaftsinformatik"/>
+			<cref name="UE Analysis für Informatik und Wirtschaftsinformatik"/>
+		</group>
+		<group name="Modul Statistik und Wahrscheinlichkeitstheorie" required="true" requires="STEOP">
+			<cref name="VO Statistik und Wahrscheinlichkeitstheorie"/>
+			<cref name="UE Statistik und Wahrscheinlichkeitstheorie"/>
+		</group>
+		<group name="Modul Algorithmen und Datenstrukturen" required="true">
+			<cref name="VU Algorithmen und Datenstrukturen"/>
+		</group>
+		<group name="Modul Einführung in die Programmierung" required="true">
+			<cref name="VU Einführung in die Programmierung 1"/>
+			<cref name="VU Einführung in die Programmierung 2"/>
+		</group>
+		<group name="Modul Freie Wahlfächer und Transferable Skills" required="true">
+			<group name="Freie Wahlfächer"><variable/></group>
+			<group name="Transferable Skills" minEcts="6" required="true"><variable/></group>
+		</group>
+		<group name="Modul Modellierung" required="true">
+			<cref name="VU Datenmodellierung"/>
+			<cref name="VU Einführung in theoretische Informatik und Logik"/>
+			<cref name="VU Formale Modellierung"/>
+			<cref name="VU Objektorientierte Modellierung"/>
+		</group>
+		<group name="Modul Software Engineering und Projektmanagement" required="true" requires="STEOP">
+			<cref name="VU Objektorientierte Programmiertechniken"/>
+			<cref name="VO Software Engineering und Projektmanagement"/>
+			<cref name="PR Software Engineering und Projektmanagement"/>
+		</group>
+		<group name="Modul Denkweisen der Informatik" required="true">
+			<cref name="VU Denkweisen der Informatik"/>
+			<cref name="VU Orientierung Informatik und Wirtschaftsinformatik"/>
+		</group>
+		<group name="Modul Interface &amp; Interaction Design" required="true" requires="STEOP">
+			<cref name="VU Interface and Interaction Design"/>
+			<cref name="PR Interface and Interaction Design"/>
+		</group>
+		<group name="Modul Kontexte der Systementwicklung" required="true" requires="STEOP">
+			<cref name="VU Daten- und Informatikrecht"/>
+			<cref name="VU Gesellschaftswissenschaftliche Grundlagen der Informatik"/>
+			<cref name="VU Socially Embedded Computing"/>
+		</group>
+		<group name="Modul Multimedia" required="true" requires="STEOP">
+			<cref name="VO Multimedia"/>
+			<cref name="UE Multimedia"/>
+		</group>
+		<group name="Modul Bachelorarbeit" required="true" requires="STEOP">
+			<cref name="SE Wissenschaftliches Arbeiten"/>
+			<cref name="PR Bachelorarbeit für Informatik und Wirtschaftsinformatik"/>
+		</group>
+		<group name="Modul Computergraphik" required="true" requires="STEOP">
+			<cref name="VO Computergraphik"/>
+			<cref name="UE Computergraphik"/>
+		</group>
+		<group name="Modul Einführung in Visual Computing" required="true">
+			<cref name="VU Einführung in Visual Computing"/>
+		</group>
+		<group name="Modul Einführung in die Mustererkennung" required="true" requires="STEOP">
+			<cref name="VO Einführung in die Mustererkennung"/>
+			<cref name="UE Einführung in die Mustererkennung"/>
+		</group>
+		<group name="Modul Visualisierung" required="true" requires="STEOP">
+			<cref name="VU Informationsdesign und Visualisierung"/>
+			<cref name="VU Visualisierung 1"/>
+		</group>
+		<group name="Modul Übungen zu Visual Computing" required="true" requires="STEOP">
+			<cref name="UE Einführung in die Computergraphik"/>
+			<cref name="UE Einführung in die digitale Bildverarbeitung"/>
+		</group>
+		<group name="Modul Technische Grundlagen für Informatik" required="true">
+			<cref name="VU Technische Grundlagen der Informatik"/>
+		</group>
+		<group name="Modul Verteilte Systeme" required="true" requires="STEOP">
+			<cref name="VO Verteilte Systeme"/>
+			<cref name="UE Verteilte Systeme"/>
+		</group>
+	</group>
+	<group name="elective modules" required="true" minEcts="12">
+		<group name="Modul Entwicklung von Web-Anwendungen" requires="STEOP">
+			<cref name="VU Semistrukturierte Daten"/>
+			<cref name="VU Web Engineering"/>
+		</group>
+		<group name="Modul Softwarequalitätssicherung" requires="STEOP">
+			<cref name="VU Software-Qualitätssicherung"/>
+		</group>
+		<group name="Modul Audio Production and Video Production" requires="STEOP">
+			<cref name="VU Audio Production"/>
+			<cref name="VU Video Production"/>
+		</group>
+		<group name="Modul Computermusik" requires="STEOP">
+			<cref name="VU Elektroakustische Musik 1"/>
+			<cref name="VU Elektroakustische Musik 2"/>
+			<cref name="VU Musikproduktion"/>
+		</group>
+		<group name="Modul Multimedia-Produktion" requires="STEOP">
+			<cref name="VU Multimedia Produktion 1: Materialien und Tools"/>
+		</group>
+		<group name="Modul Usability Engineering and Mobile Interaction" requires="STEOP">
+			<cref name="VU Pilots in Mobile Interaction: User-centered Interaction Research and Evaluation"/>
+			<cref name="VU Usability Engineering"/>
+		</group>
+		<group name="Modul Vernetztes Lernen" requires="STEOP">
+			<cref name="VO Vernetztes Lernen"/>
+			<cref name="UE Vernetztes Lernen"/>
+		</group>
+		<group name="Modul Fachübergreifende Qualifikationen" minEcts="9">
+			<cref name="VO EDV-Vertragsrecht"/>
+			<cref name="VO Einführung in Technik und Gesellschaft"/>
+			<cref name="VU Forschungsmethoden"/>
+			<cref name="VU Kommunikation und Moderation"/>
+			<cref name="VU Kooperatives Arbeiten"/>
+			<cref name="VU Präsentation und Moderation"/>
+			<cref name="VU Softskills für TechnikerInnen"/>
+			<cref name="VU Techniksoziologie und Technikpsychologie"/>
+			<cref name="VO Theorie und Praxis der Gruppenarbeit"/>
+			<cref name="SE Coaching als Führungsinstrument 2"/>
+			<cref name="SE Critical Algorithm Studies"/>
+			<cref name="SE Didaktik in der Informatik"/>
+			<cref name="SE Folgenabschätzung von Informationstechnologien"/>
+			<cref name="SE Kommunikation und Rhetorik 2"/>
+			<cref name="SE Rechtsinformationsrecherche im Internet"/>
+			<cref name="SE Scientific Presentation and Communication"/>
+			<cref name="SE Wissenschaftliche Methodik"/>
+			<cref name="PV Privatissimum aus Fachdidaktik Informatik"/>
+			<cref name="EX Exkursion"/>
+		</group>
+		<group name="Modul Security" minEcts="6" requires="STEOP">
+			<cref name="VU Internet Security"/>
+			<cref name="VU Introduction to Modern Cryptography"/>
+			<cref name="VU Introduction to Security"/>
+			<cref name="VU Privacy Enhancing Technologies"/>
+			<cref name="VU Security for Systems Engineering"/>
+			<cref name="UE Introduction to Security"/>
+		</group>
+	</group>
+</group>
+<constraints>
+	<group name="STEOP" maxEctsWithout="22">
+		<group name="STEOP core" required="true">
+			<cref name="VO Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
+			<cref name="VU Einführung in die Programmierung 1"/>
+			<cref name="VU Orientierung Informatik und Wirtschaftsinformatik"/>
+		</group>
+
+		<group name="STEOP pool" minEcts="6">
+			<cref name="UE Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
+			<cref name="VO Analysis für Informatik und Wirtschaftsinformatik"/>
+			<cref name="UE Analysis für Informatik und Wirtschaftsinformatik"/>
+			<cref name="VU Denkweisen der Informatik"/>
+			<cref name="VU Formale Modellierung"/>
+			<cref name="VU Objektorientierte Modellierung"/>
+			<cref name="VU Technische Grundlagen der Informatik"/>
+		</group>
+	</group>
+</constraints>
+<courses>
+		<course ects="5.0" name="UE Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
+		<course ects="4.0" name="VO Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
+		<course ects="8.0" name="VU Algorithmen und Datenstrukturen"/>
+		<course ects="4.0" name="UE Analysis für Informatik und Wirtschaftsinformatik"/>
+		<course ects="2.0" name="VO Analysis für Informatik und Wirtschaftsinformatik"/>
+		<course ects="3.0" name="VU Audio Production"/>
+		<course ects="10.0" name="PR Bachelorarbeit für Informatik und Wirtschaftsinformatik"/>
+		<course ects="3.0" name="SE Coaching als Führungsinstrument 2"/>
+		<course ects="6.0" name="UE Computergraphik"/>
+		<course ects="3.0" name="VO Computergraphik"/>
+		<course ects="3.0" name="SE Critical Algorithm Studies"/>
+		<course ects="3.0" name="VU Daten- und Informatikrecht"/>
+		<course ects="3.0" name="VU Datenmodellierung"/>
+		<course ects="5.5" name="VU Denkweisen der Informatik"/>
+		<course ects="3.0" name="SE Didaktik in der Informatik"/>
+		<course ects="1.5" name="VO EDV-Vertragsrecht"/>
+		<course ects="3.0" name="VO Einführung in Technik und Gesellschaft"/>
+		<course ects="6.0" name="VU Einführung in Visual Computing"/>
+		<course ects="3.0" name="UE Einführung in die Computergraphik"/>
+		<course ects="3.0" name="UE Einführung in die Mustererkennung"/>
+		<course ects="3.0" name="VO Einführung in die Mustererkennung"/>
+		<course ects="5.5" name="VU Einführung in die Programmierung 1"/>
+		<course ects="4.0" name="VU Einführung in die Programmierung 2"/>
+		<course ects="3.0" name="UE Einführung in die digitale Bildverarbeitung"/>
+		<course ects="3.0" name="VU Einführung in theoretische Informatik und Logik"/>
+		<course ects="3.0" name="VU Elektroakustische Musik 1"/>
+		<course ects="3.0" name="VU Elektroakustische Musik 2"/>
+		<course ects="3.0" name="EX Exkursion"/>
+		<course ects="3.0" name="SE Folgenabschätzung von Informationstechnologien"/>
+		<course ects="3.0" name="VU Formale Modellierung"/>
+		<course ects="3.0" name="VU Forschungsmethoden"/>
+		<course ects="3.0" name="VU Gesellschaftswissenschaftliche Grundlagen der Informatik"/>
+		<course ects="3.0" name="VU Informationsdesign und Visualisierung"/>
+		<course ects="3.0" name="PR Interface and Interaction Design"/>
+		<course ects="3.0" name="VU Interface and Interaction Design"/>
+		<course ects="3.0" name="VU Internet Security"/>
+		<course ects="3.0" name="VU Introduction to Modern Cryptography"/>
+		<course ects="3.0" name="UE Introduction to Security"/>
+		<course ects="3.0" name="VU Introduction to Security"/>
+		<course ects="3.0" name="VU Kommunikation und Moderation"/>
+		<course ects="3.0" name="SE Kommunikation und Rhetorik 2"/>
+		<course ects="3.0" name="VU Kooperatives Arbeiten"/>
+		<course ects="4.0" name="UE Multimedia"/>
+		<course ects="3.0" name="VO Multimedia"/>
+		<course ects="6.0" name="VU Multimedia Produktion 1: Materialien und Tools"/>
+		<course ects="3.0" name="VU Musikproduktion"/>
+		<course ects="3.0" name="VU Objektorientierte Modellierung"/>
+		<course ects="3.0" name="VU Objektorientierte Programmiertechniken"/>
+		<course ects="1.0" name="VU Orientierung Informatik und Wirtschaftsinformatik"/>
+		<course ects="3.0" name="VU Pilots in Mobile Interaction: User-centered Interaction Research and Evaluation"/>
+		<course ects="3.0" name="VU Privacy Enhancing Technologies"/>
+		<course ects="4.0" name="PV Privatissimum aus Fachdidaktik Informatik"/>
+		<course ects="3.0" name="VU Präsentation und Moderation"/>
+		<course ects="3.0" name="SE Rechtsinformationsrecherche im Internet"/>
+		<course ects="3.0" name="SE Scientific Presentation and Communication"/>
+		<course ects="3.0" name="VU Security for Systems Engineering"/>
+		<course ects="3.0" name="VU Semistrukturierte Daten"/>
+		<course ects="4.0" name="VU Socially Embedded Computing"/>
+		<course ects="3.0" name="VU Softskills für TechnikerInnen"/>
+		<course ects="6.0" name="PR Software Engineering und Projektmanagement"/>
+		<course ects="3.0" name="VO Software Engineering und Projektmanagement"/>
+		<course ects="6.0" name="VU Software-Qualitätssicherung"/>
+		<course ects="3.0" name="UE Statistik und Wahrscheinlichkeitstheorie"/>
+		<course ects="3.0" name="VO Statistik und Wahrscheinlichkeitstheorie"/>
+		<course ects="3.0" name="VU Techniksoziologie und Technikpsychologie"/>
+		<course ects="6.0" name="VU Technische Grundlagen der Informatik"/>
+		<course ects="3.0" name="VO Theorie und Praxis der Gruppenarbeit"/>
+		<course ects="3.0" name="VU Usability Engineering"/>
+		<course ects="3.0" name="UE Vernetztes Lernen"/>
+		<course ects="3.0" name="VO Vernetztes Lernen"/>
+		<course ects="3.0" name="UE Verteilte Systeme"/>
+		<course ects="3.0" name="VO Verteilte Systeme"/>
+		<course ects="3.0" name="VU Video Production"/>
+		<course ects="3.0" name="VU Visualisierung 1"/>
+		<course ects="3.0" name="VU Web Engineering"/>
+		<course ects="3.0" name="SE Wissenschaftliche Methodik"/>
+		<course ects="3.0" name="SE Wissenschaftliches Arbeiten"/>
+</courses>
+<semester-recommendation>
+	<semester>
+		<cref name="VU Einführung in die Programmierung 1"/>
+		<cref name="VO Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
+		<cref name="VU Denkweisen der Informatik"/>
+		<cref name="VU Orientierung Informatik und Wirtschaftsinformatik"/>
+		<cref name="VU Technische Grundlagen der Informatik"/>
+	</semester>
+	<semester>
+		<cref name="VU Einführung in die Programmierung 2"/>
+		<cref name="VO Analysis für Informatik und Wirtschaftsinformatik"/>
+		<cref name="UE Analysis für Informatik und Wirtschaftsinformatik"/>
+		<cref name="VU Algorithmen und Datenstrukturen"/>
+		<cref name="VU Einführung in Visual Computing"/>
+		<cref name="VU Formale Modellierung"/>
+		<cref name="VU Objektorientierte Modellierung"/>
+	</semester>
+	<semester>
+		<cref name="VO Statistik und Wahrscheinlichkeitstheorie"/>
+		<cref name="UE Statistik und Wahrscheinlichkeitstheorie"/>
+		<cref name="VU Objektorientierte Programmiertechniken"/>
+		<cref name="VU Datenmodellierung"/>
+		<cref name="VU Interface and Interaction Design"/>
+		<cref name="PR Interface and Interaction Design"/>
+		<cref name="UE Einführung in die Computergraphik"/>
+		<cref name="UE Einführung in die digitale Bildverarbeitung"/>
+	</semester>
+	<semester>
+		<cref name="VO Computergraphik"/>
+		<cref name="UE Computergraphik"/>
+		<cref name="VU Informationsdesign und Visualisierung"/>
+		<cref name="VU Daten- und Informatikrecht"/>
+		<cref name="VU Einführung in theoretische Informatik und Logik"/>
+		<cref name="VO Software Engineering und Projektmanagement"/>
+		<cref name="PR Software Engineering und Projektmanagement"/>
+	</semester>
+	<semester>
+		<cref name="VO Verteilte Systeme"/>
+		<cref name="UE Verteilte Systeme"/>
+		<cref name="VO Multimedia"/>
+		<cref name="UE Multimedia"/>
+		<cref name="VU Gesellschaftswissenschaftliche Grundlagen der Informatik"/>
+		<cref name="VO Einführung in die Mustererkennung"/>
+		<cref name="UE Einführung in die Mustererkennung"/>
+		<cref name="VU Visualisierung 1"/>
+		<cref name="SE Wissenschaftliches Arbeiten"/>
+	</semester>
+	<semester>
+		<cref name="PR Bachelorarbeit für Informatik und Wirtschaftsinformatik"/>
+		<cref name="VU Socially Embedded Computing"/>
+	</semester>
+</semester-recommendation>
+</curriculum>
