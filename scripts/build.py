@@ -54,6 +54,8 @@ for filename in glob.glob('*.xml'):
 	else:
 		print('unhandled root', filename)
 
+curricula.sort(key=lambda c: c['code'])
+
 with open('index.json', 'w') as f:
 	json.dump([dict(name=c['name'], code=c['code']) for c in curricula], f)
 
