@@ -10,8 +10,8 @@ def handle_group(el, courses):
 	data = el.attrib
 	if 'minEcts' in data:
 		data['minEcts'] = float(data['minEcts'])
-	if 'maxEctsWithout' in data:
-		data['maxEctsWithout'] = float(data['maxEctsWithout'])
+	if 'maxEctsIfUnsatisfied' in data:
+		data['maxEctsIfUnsatisfied'] = float(data['maxEctsIfUnsatisfied'])
 
 	if 'required' in data:
 		data['required'] = data['required'] in ('true', '1')

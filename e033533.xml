@@ -171,7 +171,7 @@
 			</group>
 		</group>
 
-		<group name="STEOP" required="true" maxEctsWithout="22">
+		<group name="STEOP" required="true" maxEctsIfUnsatisfied="22">
 			<group name="STEOP core" required="true">
 				<cref name="VO Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
 				<cref name="VU Einführung in die Programmierung 1"/>

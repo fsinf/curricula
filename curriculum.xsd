@@ -52,7 +52,7 @@
 		<xs:attribute name="name" type="xs:string"/>
 		<xs:attribute name="minEcts" type="positiveFloat"/>
 		<xs:attribute name="maxEcts" type="positiveFloat"/>
-		<xs:attribute name="maxEctsWithout" type="positiveFloat"/>
+		<xs:attribute name="maxEctsIfUnsatisfied" type="positiveFloat"/>
 		<xs:attribute name="required" type="xs:boolean"/>
 		<xs:attribute name="requires" type="xs:string"/>
 	</xs:complexType>
