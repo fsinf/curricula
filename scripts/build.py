@@ -38,7 +38,6 @@ def handle_curriculum(el):
 	data['semesterRecommendation'] = [[c.get('name') for c in s] for s in el.find('semester-recommendation')]
 	data['courses'] = {c.get('name'): handle_course(c, data['semesterRecommendation']) for c in el.find('courses')}
 	data['group'] = handle_group(el.find('group'), data['courses'])
-	data['constraints'] = [handle_group(g, data['courses']) for g in el.find('constraints')]
 	return data
 
 curricula = []

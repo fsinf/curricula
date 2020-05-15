@@ -160,16 +160,15 @@
 				<cref name="UE Einführung in die digitale Bildverarbeitung"/>
 			</group>
 		</group>
-	</group>
-	<constraints>
-		<group name="STEOP" maxEctsWithout="22">
+
+		<group name="STEOP" maxEctsWithout="22" required="true">
 			<group name="STEOP core" required="true">
 				<cref name="VO Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
 				<cref name="VU Einführung in die Programmierung 1"/>
 				<cref name="VU Orientierung Informatik und Wirtschaftsinformatik"/>
 			</group>
 
-			<group name="STEOP pool" minEcts="6">
+			<group name="STEOP pool" required="true" minEcts="6">
 				<cref name="UE Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
 				<cref name="VO Analysis für Informatik und Wirtschaftsinformatik"/>
 				<cref name="UE Analysis für Informatik und Wirtschaftsinformatik"/>
@@ -178,8 +177,14 @@
 				<cref name="VU Objektorientierte Modellierung"/>
 				<cref name="VU Technische Grundlagen der Informatik"/>
 			</group>
+
+			<group name="STEOP free">
+				<cref name="VU Algorithmen und Datenstrukturen"/>
+				<cref name="VU Einführung in die Programmierung 2"/>
+				<cref name="VU Einführung in Visual Computing"/>
+			</group>
 		</group>
-	</constraints>
+	</group>
 	<courses>
 		<course ects="3.0" name="UE Abstrakte Maschinen"/>
 		<course ects="3.0" name="VO Abstrakte Maschinen"/>

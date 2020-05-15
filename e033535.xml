@@ -136,9 +136,8 @@
 				<cref name="VU Übersetzerbau"/>
 			</group>
 		</group>
-	</group>
-	<constraints>
-		<group name="STEOP" maxEctsWithout="22">
+
+		<group name="STEOP" required="true" maxEctsWithout="22">
 			<group name="STEOP core" required="true">
 				<cref name="VO Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
 				<cref name="VO Analysis für Informatik und Wirtschaftsinformatik"/>
@@ -146,14 +145,24 @@
 				<cref name="VU Orientierung Informatik und Wirtschaftsinformatik"/>
 			</group>
 
-			<group name="STEOP pool" minEcts="4">
+			<group name="STEOP pool" required="true" minEcts="4">
 				<cref name="UE Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
 				<cref name="UE Analysis für Informatik und Wirtschaftsinformatik"/>
 				<cref name="VU Formale Modellierung"/>
 				<cref name="VU Grundlagen digitaler Systeme"/>
 			</group>
+
+			<group name="STEOP free">
+				<cref name="VU Algorithmen und Datenstrukturen"/>
+				<cref name="VO Analysis 2 für Informatik"/>
+				<cref name="UE Analysis 2 für Informatik"/>
+				<cref name="VU Denkweisen der Informatik"/>
+				<cref name="VU Elektrotechnische Grundlagen"/>
+				<cref name="LU Elektrotechnische Grundlagen"/>
+				<cref name="VU Einführung in die Programmierung 2"/>
+			</group>
 		</group>
-	</constraints>
+	</group>
 	<courses>
 		<course ects="3.0" name="UE Abstrakte Maschinen"/>
 		<course ects="3.0" name="VO Abstrakte Maschinen"/>

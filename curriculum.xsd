@@ -3,13 +3,7 @@
 	<xs:element name="curriculum">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element name="group" type="groupType">
-					<xs:unique name="oneCourseOnlyOneModule">
-						<xs:selector xpath=".//cref"/>
-						<xs:field xpath="@name"/>
-					</xs:unique>
-				</xs:element>
-				<xs:element name="constraints" type="groupType"/>
+				<xs:element name="group" type="groupType"/>
 				<xs:element name="courses" type="coursesType"/>
 				<xs:element name="semester-recommendation" type="semesterRecType">
 					<xs:unique name="onlyRecommendedOnce">

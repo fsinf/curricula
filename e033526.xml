@@ -125,9 +125,8 @@
 				<cref name="VU Barrierefreiheit und Universal Design"/>
 			</group>
 		</group>
-	</group>
-	<constraints>
-		<group name="STEOP" maxEctsWithout="22">
+
+		<group name="STEOP" required="true" maxEctsWithout="22">
 			<group name="STEOP core" required="true">
 				<cref name="VO Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
 				<cref name="VU Einführung in die Programmierung 1"/>
@@ -135,7 +134,7 @@
 				<cref name="VU Orientierung Informatik und Wirtschaftsinformatik"/>
 			</group>
 
-			<group name="STEOP pool" minEcts="3">
+			<group name="STEOP pool" required="true" minEcts="3">
 				<cref name="UE Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
 				<cref name="VO Analysis für Informatik und Wirtschaftsinformatik"/>
 				<cref name="UE Analysis für Informatik und Wirtschaftsinformatik"/>
@@ -147,8 +146,13 @@
 				<cref name="VU Rechnungswesen"/>
 				<cref name="VU Technische Grundlagen der Informatik für Wirtschaftsinformatik"/>
 			</group>
+
+			<group name="STEOP free">
+				<cref name="VU Algorithmen und Datenstrukturen"/>
+				<cref name="VU Einführung in die Programmierung 2"/>
+			</group>
 		</group>
-	</constraints>
+	</group>
 	<courses>
 		<course ects="5.0" name="UE Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
 		<course ects="4.0" name="VO Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
