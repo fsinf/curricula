@@ -10,23 +10,21 @@ const Curricula = {
 		let res = await fetch(this.URL + code + '.json');
 		let curriculum = await res.json();
 
-		function linkGroup(group, courseParents, curriculum){
+		function linkGroup(group, curriculum){
 			curriculum.groups[group.name] = group;
 			if (group.groups)
 				group.groups.forEach(g => {
-					linkGroup(g, courseParents, curriculum);
+					linkGroup(g, curriculum);
 					g.parent = group;
 				});
 			if (group.courses){
 				group.courses = group.courses.map(c => curriculum.courses[c]);
-				if (courseParents)
-					group.courses.forEach(c => {c.parent = group;});
+				group.courses.forEach(c => {c.parent = group;});
 			}
 		}
 
 		curriculum.groups = {};
-		linkGroup(curriculum.group, true, curriculum);
-		curriculum.constraints.forEach(g => linkGroup(g, false, curriculum));
+		linkGroup(curriculum.group, curriculum);
 		return curriculum;
 	}
 };
