@@ -12,15 +12,15 @@
 				<cref name="VO Analysis für Informatik und Wirtschaftsinformatik"/>
 				<cref name="UE Analysis für Informatik und Wirtschaftsinformatik"/>
 			</group>
-			<group name="Modul Bachelorarbeit" required="true" requires="STEOP">
+			<group name="Modul Bachelorarbeit" required="true" requires="steop">
 				<cref name="SE Wissenschaftliches Arbeiten"/>
 				<cref name="PR Bachelorarbeit für Informatik und Wirtschaftsinformatik"/>
 			</group>
-			<group name="Modul Biophysikalische Systeme" required="true" requires="STEOP">
+			<group name="Modul Biophysikalische Systeme" required="true" requires="steop">
 				<cref name="VO Biomedical Sensors and Signals"/>
 				<cref name="VO Biophysik"/>
 			</group>
-			<group name="Modul Datenbanksysteme" required="true" requires="STEOP">
+			<group name="Modul Datenbanksysteme" required="true" requires="steop">
 				<cref name="VU Datenbanksysteme"/>
 			</group>
 			<group name="Modul Denkweisen der Informatik" required="true">
@@ -38,21 +38,21 @@
 				<group name="Freie Wahlfächer"><variable/></group>
 				<group name="Transferable Skills" minEcts="6" required="true"><variable/></group>
 			</group>
-			<group name="Modul IT &amp; Health Care" required="true" requires="STEOP">
+			<group name="Modul IT &amp; Health Care" required="true" requires="steop">
 				<cref name="VU Anwendungen im Gesundheitswesen"/>
 				<cref name="VU eHealth in Theorie und Praxis"/>
 			</group>
-			<group name="Modul Informationssysteme des Gesundheitswesens" required="true" requires="STEOP">
+			<group name="Modul Informationssysteme des Gesundheitswesens" required="true" requires="steop">
 				<cref name="VO Informationssysteme im Gesundheitswesen"/>
 				<cref name="VU Introduction to Security"/>
 			</group>
-			<group name="Modul Life Sciences" required="true" requires="STEOP">
+			<group name="Modul Life Sciences" required="true" requires="steop">
 				<cref name="VO Biochemie"/>
 				<cref name="VO Chemie-Propädeutikum"/>
 				<cref name="VU Grundlagen der Physik"/>
 				<cref name="PR Physikalisches Praktikum"/>
 			</group>
-			<group name="Modul Medizin" required="true" requires="STEOP">
+			<group name="Modul Medizin" required="true" requires="steop">
 				<cref name="VO Anatomie und Histologie"/>
 				<cref name="VO Physiologie und Grundlagen der Pathologie"/>
 			</group>
@@ -60,125 +60,125 @@
 				<cref name="VU Formale Modellierung"/>
 				<cref name="VU Objektorientierte Modellierung"/>
 			</group>
-			<group name="Modul Rechtliche Aspekte im Gesundheitswesen" required="true" requires="STEOP">
+			<group name="Modul Rechtliche Aspekte im Gesundheitswesen" required="true" requires="steop">
 				<cref name="VU Daten- und Informatikrecht"/>
 				<cref name="VO Rechtliche Grundlagen der medizinischen Versorgung"/>
 			</group>
-			<group name="Modul Software Engineering und Projektmanagement" required="true" requires="STEOP">
+			<group name="Modul Software Engineering und Projektmanagement" required="true" requires="steop">
 				<cref name="VO Software Engineering und Projektmanagement"/>
 				<cref name="PR Software Engineering und Projektmanagement"/>
 			</group>
-			<group name="Modul Statistik und Wahrscheinlichkeitstheorie" required="true" requires="STEOP">
+			<group name="Modul Statistik und Wahrscheinlichkeitstheorie" required="true" requires="steop">
 				<cref name="VO Statistik und Wahrscheinlichkeitstheorie"/>
 				<cref name="UE Statistik und Wahrscheinlichkeitstheorie"/>
 			</group>
 			<group name="Modul Technische Grundlagen für Informatik" required="true">
 				<cref name="VU Technische Grundlagen der Informatik"/>
 			</group>
-			<group name="Modul Theoretische Informatik und Logik" required="true" requires="STEOP">
+			<group name="Modul Theoretische Informatik und Logik" required="true" requires="steop">
 				<cref name="VU Theoretische Informatik und Logik"/>
 			</group>
 		</group>
 		<group name="elective modules" required="true" minEcts="18">
-			<group name="Modul Ambient Assisted Living" requires="STEOP">
+			<group name="Modul Ambient Assisted Living" requires="steop">
 				<cref name="VU Aging, Care and Technology"/>
 				<cref name="VU Operational Aspects of IT Systems in Care"/>
 			</group>
-			<group name="Modul Ausgewählte Kapitel der Medizin" minEcts="6" requires="STEOP">
+			<group name="Modul Ausgewählte Kapitel der Medizin" minEcts="6" requires="steop">
 				<cref name="VO Biocompatible Materials"/>
 				<cref name="VU Introduction to Biomaterials and Tissue Engineering"/>
 				<cref name="VO Introduction to Biomaterials and Tissue Engineering"/>
 			</group>
-			<group name="Modul Betriebssysteme" requires="STEOP">
+			<group name="Modul Betriebssysteme" requires="steop">
 				<cref name="VO Betriebssysteme"/>
 				<cref name="UE Betriebssysteme"/>
 			</group>
-			<group name="Modul Computernumerik" requires="STEOP">
+			<group name="Modul Computernumerik" requires="steop">
 				<cref name="VO Computernumerik"/>
 				<cref name="UE Computernumerik"/>
 			</group>
-			<group name="Modul Deklaratives Problemlösen" requires="STEOP">
+			<group name="Modul Deklaratives Problemlösen" requires="steop">
 				<cref name="VO Deklaratives Problemlösen"/>
 				<cref name="UE Deklaratives Problemlösen"/>
 			</group>
-			<group name="Modul Einführung in die Mustererkennung" requires="STEOP">
+			<group name="Modul Einführung in die Mustererkennung" requires="steop">
 				<cref name="VO Einführung in die Mustererkennung"/>
 				<cref name="UE Einführung in die Mustererkennung"/>
 			</group>
-			<group name="Modul Grundlagen intelligenter Systeme" requires="STEOP">
+			<group name="Modul Grundlagen intelligenter Systeme" requires="steop">
 				<cref name="VU Einführung in die Künstliche Intelligenz"/>
 				<cref name="VU Einführung in wissensbasierte Systeme"/>
 			</group>
-			<group name="Modul IT-Anwendungen im klinischen Bereich" requires="STEOP">
+			<group name="Modul IT-Anwendungen im klinischen Bereich" requires="steop">
 				<cref name="VU ERP Systeme"/>
 				<cref name="VU Mobile Computing in Health Care"/>
 			</group>
-			<group name="Modul Interface &amp; Interaction Design" requires="STEOP">
+			<group name="Modul Interface &amp; Interaction Design" requires="steop">
 				<cref name="VU Interface and Interaction Design"/>
 				<cref name="PR Interface and Interaction Design"/>
 			</group>
-			<group name="Modul Kontexte der Systementwicklung" minEcts="6" requires="STEOP">
+			<group name="Modul Kontexte der Systementwicklung" minEcts="6" requires="steop">
 				<cref name="VU Gesellschaftswissenschaftliche Grundlagen der Informatik"/>
 				<cref name="VU Socially Embedded Computing"/>
 			</group>
-			<group name="Modul Life Sciences in der Medizin" requires="STEOP">
+			<group name="Modul Life Sciences in der Medizin" requires="steop">
 				<cref name="VO Instrumental Analytical Biochemistry"/>
 				<cref name="VO Introduction to Biological Chemistry"/>
 				<cref name="VU Introduction to Biomechanics"/>
 				<cref name="VU Microscopy in Biology"/>
 			</group>
-			<group name="Modul Logikprogrammierung und Constraints" requires="STEOP">
+			<group name="Modul Logikprogrammierung und Constraints" requires="steop">
 				<cref name="VU Logikprogrammierung und Constraints"/>
 			</group>
-			<group name="Modul Multivariate und computerintensive statistische Methoden" requires="STEOP">
+			<group name="Modul Multivariate und computerintensive statistische Methoden" requires="steop">
 				<cref name="VO Multivariate Statistik"/>
 				<cref name="VU Statistische Simulation und computerintensive Methoden"/>
 				<cref name="UE Multivariate Statistik"/>
 			</group>
-			<group name="Modul Security" minEcts="6" requires="STEOP">
+			<group name="Modul Security" minEcts="6" requires="steop">
 				<cref name="VU Internet Security"/>
 				<cref name="VU Introduction to Modern Cryptography"/>
 				<cref name="VU Privacy Enhancing Technologies"/>
 				<cref name="VU Security for Systems Engineering"/>
 				<cref name="UE Introduction to Security"/>
 			</group>
-			<group name="Modul Softwarequalitätssicherung" requires="STEOP">
+			<group name="Modul Softwarequalitätssicherung" requires="steop">
 				<cref name="VU Software-Qualitätssicherung"/>
 			</group>
-			<group name="Modul Statistische Datenanalyse" requires="STEOP">
+			<group name="Modul Statistische Datenanalyse" requires="steop">
 				<cref name="VU Datenanalyse"/>
 				<cref name="VU Statistical Computing"/>
 			</group>
-			<group name="Modul Usability Engineering and Mobile Interaction" requires="STEOP">
+			<group name="Modul Usability Engineering and Mobile Interaction" requires="steop">
 				<cref name="VU Pilots in Mobile Interaction: User-centered Interaction Research and Evaluation"/>
 				<cref name="VU Usability Engineering"/>
 			</group>
-			<group name="Modul Verteilte Systeme" requires="STEOP">
+			<group name="Modul Verteilte Systeme" requires="steop">
 				<cref name="VO Verteilte Systeme"/>
 				<cref name="UE Verteilte Systeme"/>
 			</group>
-			<group name="Modul Vertrags-, Daten- und Informatikrecht" requires="STEOP">
+			<group name="Modul Vertrags-, Daten- und Informatikrecht" requires="steop">
 				<cref name="VU Vertrags- und Haftungsrecht"/>
 				<cref name="UE Daten- und Informatikrecht"/>
 			</group>
-			<group name="Modul Wissensrepräsentation" requires="STEOP">
+			<group name="Modul Wissensrepräsentation" requires="steop">
 				<cref name="VO Logik für Wissensrepräsentation"/>
 				<cref name="UE Logik für Wissensrepräsentation"/>
 			</group>
-			<group name="Modul Übungen zu Visual Computing" requires="STEOP">
+			<group name="Modul Übungen zu Visual Computing" requires="steop">
 				<cref name="UE Einführung in die Computergraphik"/>
 				<cref name="UE Einführung in die digitale Bildverarbeitung"/>
 			</group>
 		</group>
 
-		<group name="STEOP" required="true" maxEctsIfUnsatisfied="22">
-			<group name="STEOP core" required="true">
+		<group name="steop" required="true" maxEctsIfUnsatisfied="22">
+			<group name="steop core" required="true">
 				<cref name="VO Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
 				<cref name="VU Einführung in die Programmierung 1"/>
 				<cref name="VU Orientierung Informatik und Wirtschaftsinformatik"/>
 			</group>
 
-			<group name="STEOP pool" required="true" minEcts="6">
+			<group name="steop pool" required="true" minEcts="6">
 				<cref name="UE Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
 				<cref name="VO Analysis für Informatik und Wirtschaftsinformatik"/>
 				<cref name="UE Analysis für Informatik und Wirtschaftsinformatik"/>
@@ -188,7 +188,7 @@
 				<cref name="VU Technische Grundlagen der Informatik"/>
 			</group>
 
-			<group name="STEOP free">
+			<group name="steop free">
 				<cref name="VU Algorithmen und Datenstrukturen"/>
 				<cref name="VU Einführung in die Programmierung 2"/>
 				<cref name="VU Einführung in Visual Computing"/>

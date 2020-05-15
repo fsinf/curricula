@@ -19,7 +19,7 @@
 			<group name="Modul Bachelorarbeit" required="true">
 				<cref name="PR Bachelorarbeit für Informatik und Wirtschaftsinformatik"/>
 			</group>
-			<group name="Modul Betriebssysteme und Computernetzwerke" required="true" requires="STEOP">
+			<group name="Modul Betriebssysteme und Computernetzwerke" required="true" requires="steop">
 				<cref name="VO Betriebssysteme"/>
 				<cref name="VU Computer Networks"/>
 				<cref name="UE Betriebssysteme"/>
@@ -28,11 +28,11 @@
 				<cref name="VU Denkweisen der Informatik"/>
 				<cref name="VU Orientierung Informatik und Wirtschaftsinformatik"/>
 			</group>
-			<group name="Modul Dezentrale Automation" required="true" requires="STEOP">
+			<group name="Modul Dezentrale Automation" required="true" requires="steop">
 				<cref name="VO Dezentrale Automation"/>
 				<cref name="LU Dezentrale Automation"/>
 			</group>
-			<group name="Modul Digital Design" required="true" requires="STEOP">
+			<group name="Modul Digital Design" required="true" requires="steop">
 				<cref name="VO Digital Design"/>
 				<cref name="VO Hardware Modeling"/>
 				<cref name="VO Rechnerstrukturen"/>
@@ -54,105 +54,105 @@
 				<cref name="VU Formale Modellierung"/>
 				<cref name="VU Grundlagen digitaler Systeme"/>
 			</group>
-			<group name="Modul Microcontroller" required="true" requires="STEOP">
+			<group name="Modul Microcontroller" required="true" requires="steop">
 				<cref name="VU Microcontroller"/>
 			</group>
-			<group name="Modul Modellbildung und Regelungstechnik" required="true" requires="STEOP">
+			<group name="Modul Modellbildung und Regelungstechnik" required="true" requires="steop">
 				<cref name="VU Automatisierung"/>
 				<cref name="VU Modellbildung"/>
 				<cref name="LU Regelungstechnik"/>
 			</group>
-			<group name="Modul Programm- und Systemverifikation" required="true" requires="STEOP">
+			<group name="Modul Programm- und Systemverifikation" required="true" requires="steop">
 				<cref name="VU Programm- und Systemverifikation"/>
 			</group>
-			<group name="Modul Signale und Systeme" required="true" requires="STEOP">
+			<group name="Modul Signale und Systeme" required="true" requires="steop">
 				<cref name="VU Signale und Systeme 1"/>
 				<cref name="VU Signale und Systeme 2"/>
 			</group>
-			<group name="Modul Theoretische Informatik und Logik" required="true" requires="STEOP">
+			<group name="Modul Theoretische Informatik und Logik" required="true" requires="steop">
 				<cref name="VU Theoretische Informatik und Logik"/>
 			</group>
-			<group name="Modul Wahrscheinlichkeitstheorie und Stochastische Prozesse" required="true" requires="STEOP">
+			<group name="Modul Wahrscheinlichkeitstheorie und Stochastische Prozesse" required="true" requires="steop">
 				<cref name="VO Wahrscheinlichkeitstheorie und Stochastische Prozesse für Informatik"/>
 				<cref name="UE Wahrscheinlichkeitstheorie und Stochastische Prozesse für Informatik"/>
 			</group>
-			<group name="Modul Zuverlässige Echtzeitsysteme" required="true" requires="STEOP">
+			<group name="Modul Zuverlässige Echtzeitsysteme" required="true" requires="steop">
 				<cref name="VU Dependable Systems"/>
 				<cref name="VO Echtzeitsysteme"/>
 			</group>
 		</group>
 		<group name="elective modules" required="true" minEcts="10">
-			<group name="Modul Abstrakte Maschinen" requires="STEOP">
+			<group name="Modul Abstrakte Maschinen" requires="steop">
 				<cref name="VO Abstrakte Maschinen"/>
 				<cref name="UE Abstrakte Maschinen"/>
 			</group>
-			<group name="Modul Argumentieren und Beweisen" requires="STEOP">
+			<group name="Modul Argumentieren und Beweisen" requires="steop">
 				<cref name="VU Argumentieren und Beweisen"/>
 			</group>
-			<group name="Modul Computernumerik" requires="STEOP">
+			<group name="Modul Computernumerik" requires="steop">
 				<cref name="VO Computernumerik"/>
 				<cref name="UE Computernumerik"/>
 			</group>
-			<group name="Modul Datenbanksysteme" requires="STEOP">
+			<group name="Modul Datenbanksysteme" requires="steop">
 				<cref name="VU Datenbanksysteme"/>
 			</group>
-			<group name="Modul Einführung in die Mustererkennung" requires="STEOP">
+			<group name="Modul Einführung in die Mustererkennung" requires="steop">
 				<cref name="VO Einführung in die Mustererkennung"/>
 				<cref name="UE Einführung in die Mustererkennung"/>
 			</group>
-			<group name="Modul Einführung in paralleles Rechnen (Parallel Computing)" requires="STEOP">
+			<group name="Modul Einführung in paralleles Rechnen (Parallel Computing)" requires="steop">
 				<cref name="VU Parallel Computing"/>
 			</group>
-			<group name="Modul Grundlagen der Betriebswirtschaft" requires="STEOP">
+			<group name="Modul Grundlagen der Betriebswirtschaft" requires="steop">
 				<cref name="VO Grundlagen der Unternehmensführung"/>
 				<cref name="VU Kosten- und Leistungsrechnung"/>
 				<cref name="VU Rechnungswesen"/>
 			</group>
-			<group name="Modul Grundlagen intelligenter Systeme" requires="STEOP">
+			<group name="Modul Grundlagen intelligenter Systeme" requires="steop">
 				<cref name="VU Einführung in die Künstliche Intelligenz"/>
 				<cref name="VU Einführung in wissensbasierte Systeme"/>
 			</group>
-			<group name="Modul Praktikum Technische Informatik" requires="STEOP">
+			<group name="Modul Praktikum Technische Informatik" requires="steop">
 				<cref name="PR Praktikum Technische Informatik"/>
 			</group>
-			<group name="Modul Programmierparadigmen" requires="STEOP">
+			<group name="Modul Programmierparadigmen" requires="steop">
 				<cref name="VU Funktionale Programmierung"/>
 				<cref name="VU Objektorientierte Programmiertechniken"/>
 			</group>
-			<group name="Modul Verbreiterung Bakkalaureat Technische Informatik" requires="STEOP">
+			<group name="Modul Verbreiterung Bakkalaureat Technische Informatik" requires="steop">
 				<cref name="VU Introduction to Security"/>
 				<cref name="VU Objektorientierte Modellierung"/>
 				<cref name="UE Introduction to Security"/>
 			</group>
-			<group name="Modul Verteilte Systeme" requires="STEOP">
+			<group name="Modul Verteilte Systeme" requires="steop">
 				<cref name="VO Verteilte Systeme"/>
 				<cref name="UE Verteilte Systeme"/>
 			</group>
-			<group name="Modul Vertiefung Bakkalaureat Technische Informatik" requires="STEOP">
+			<group name="Modul Vertiefung Bakkalaureat Technische Informatik" requires="steop">
 				<cref name="VU Einführung in die Telekommunikation"/>
 				<cref name="UE Programmierung in die Telekommunikation"/>
 			</group>
-			<group name="Modul Übersetzerbau" requires="STEOP">
+			<group name="Modul Übersetzerbau" requires="steop">
 				<cref name="VU Übersetzerbau"/>
 			</group>
 		</group>
 
-		<group name="STEOP" required="true" maxEctsIfUnsatisfied="22">
-			<group name="STEOP core" required="true">
+		<group name="steop" required="true" maxEctsIfUnsatisfied="22">
+			<group name="steop core" required="true">
 				<cref name="VO Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
 				<cref name="VO Analysis für Informatik und Wirtschaftsinformatik"/>
 				<cref name="VU Einführung in die Programmierung 1"/>
 				<cref name="VU Orientierung Informatik und Wirtschaftsinformatik"/>
 			</group>
 
-			<group name="STEOP pool" required="true" minEcts="4">
+			<group name="steop pool" required="true" minEcts="4">
 				<cref name="UE Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
 				<cref name="UE Analysis für Informatik und Wirtschaftsinformatik"/>
 				<cref name="VU Formale Modellierung"/>
 				<cref name="VU Grundlagen digitaler Systeme"/>
 			</group>
 
-			<group name="STEOP free">
+			<group name="steop free">
 				<cref name="VU Algorithmen und Datenstrukturen"/>
 				<cref name="VO Analysis 2 für Informatik"/>
 				<cref name="UE Analysis 2 für Informatik"/>

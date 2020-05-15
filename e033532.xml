@@ -12,11 +12,11 @@
 				<cref name="VO Analysis für Informatik und Wirtschaftsinformatik"/>
 				<cref name="UE Analysis für Informatik und Wirtschaftsinformatik"/>
 			</group>
-			<group name="Modul Bachelorarbeit" required="true" requires="STEOP">
+			<group name="Modul Bachelorarbeit" required="true" requires="steop">
 				<cref name="SE Wissenschaftliches Arbeiten"/>
 				<cref name="PR Bachelorarbeit für Informatik und Wirtschaftsinformatik"/>
 			</group>
-			<group name="Modul Computergraphik" required="true" requires="STEOP">
+			<group name="Modul Computergraphik" required="true" requires="steop">
 				<cref name="VO Computergraphik"/>
 				<cref name="UE Computergraphik"/>
 			</group>
@@ -27,7 +27,7 @@
 			<group name="Modul Einführung in Visual Computing" required="true">
 				<cref name="VU Einführung in Visual Computing"/>
 			</group>
-			<group name="Modul Einführung in die Mustererkennung" required="true" requires="STEOP">
+			<group name="Modul Einführung in die Mustererkennung" required="true" requires="steop">
 				<cref name="VO Einführung in die Mustererkennung"/>
 				<cref name="UE Einführung in die Mustererkennung"/>
 			</group>
@@ -39,11 +39,11 @@
 				<group name="Freie Wahlfächer"><variable/></group>
 				<group name="Transferable Skills" minEcts="6" required="true"><variable/></group>
 			</group>
-			<group name="Modul Interface &amp; Interaction Design" required="true" requires="STEOP">
+			<group name="Modul Interface &amp; Interaction Design" required="true" requires="steop">
 				<cref name="VU Interface and Interaction Design"/>
 				<cref name="PR Interface and Interaction Design"/>
 			</group>
-			<group name="Modul Kontexte der Systementwicklung" required="true" requires="STEOP">
+			<group name="Modul Kontexte der Systementwicklung" required="true" requires="steop">
 				<cref name="VU Daten- und Informatikrecht"/>
 				<cref name="VU Gesellschaftswissenschaftliche Grundlagen der Informatik"/>
 				<cref name="VU Socially Embedded Computing"/>
@@ -54,53 +54,53 @@
 				<cref name="VU Formale Modellierung"/>
 				<cref name="VU Objektorientierte Modellierung"/>
 			</group>
-			<group name="Modul Multimedia" required="true" requires="STEOP">
+			<group name="Modul Multimedia" required="true" requires="steop">
 				<cref name="VO Multimedia"/>
 				<cref name="UE Multimedia"/>
 			</group>
-			<group name="Modul Software Engineering und Projektmanagement" required="true" requires="STEOP">
+			<group name="Modul Software Engineering und Projektmanagement" required="true" requires="steop">
 				<cref name="VU Objektorientierte Programmiertechniken"/>
 				<cref name="VO Software Engineering und Projektmanagement"/>
 				<cref name="PR Software Engineering und Projektmanagement"/>
 			</group>
-			<group name="Modul Statistik und Wahrscheinlichkeitstheorie" required="true" requires="STEOP">
+			<group name="Modul Statistik und Wahrscheinlichkeitstheorie" required="true" requires="steop">
 				<cref name="VO Statistik und Wahrscheinlichkeitstheorie"/>
 				<cref name="UE Statistik und Wahrscheinlichkeitstheorie"/>
 			</group>
 			<group name="Modul Technische Grundlagen für Informatik" required="true">
 				<cref name="VU Technische Grundlagen der Informatik"/>
 			</group>
-			<group name="Modul Verteilte Systeme" required="true" requires="STEOP">
+			<group name="Modul Verteilte Systeme" required="true" requires="steop">
 				<cref name="VO Verteilte Systeme"/>
 				<cref name="UE Verteilte Systeme"/>
 			</group>
-			<group name="Modul Visualisierung" required="true" requires="STEOP">
+			<group name="Modul Visualisierung" required="true" requires="steop">
 				<cref name="VU Informationsdesign und Visualisierung"/>
 				<cref name="VU Visualisierung 1"/>
 			</group>
-			<group name="Modul Übungen zu Visual Computing" required="true" requires="STEOP">
+			<group name="Modul Übungen zu Visual Computing" required="true" requires="steop">
 				<cref name="UE Einführung in die Computergraphik"/>
 				<cref name="UE Einführung in die digitale Bildverarbeitung"/>
 			</group>
 		</group>
 		<group name="elective modules" required="true" minEcts="12">
-			<group name="Modul Audio Production and Video Production" requires="STEOP">
+			<group name="Modul Audio Production and Video Production" requires="steop">
 				<cref name="VU Audio Production"/>
 				<cref name="VU Video Production"/>
 			</group>
-			<group name="Modul Computermusik" requires="STEOP">
+			<group name="Modul Computermusik" requires="steop">
 				<cref name="VU Elektroakustische Musik 1"/>
 				<cref name="VU Elektroakustische Musik 2"/>
 				<cref name="VU Musikproduktion"/>
 			</group>
-			<group name="Modul Entwicklung von Web-Anwendungen" requires="STEOP">
+			<group name="Modul Entwicklung von Web-Anwendungen" requires="steop">
 				<cref name="VU Semistrukturierte Daten"/>
 				<cref name="VU Web Engineering"/>
 			</group>
-			<group name="Modul Multimedia-Produktion" requires="STEOP">
+			<group name="Modul Multimedia-Produktion" requires="steop">
 				<cref name="VU Multimedia Produktion 1: Materialien und Tools"/>
 			</group>
-			<group name="Modul Security" minEcts="6" requires="STEOP">
+			<group name="Modul Security" minEcts="6" requires="steop">
 				<cref name="VU Internet Security"/>
 				<cref name="VU Introduction to Modern Cryptography"/>
 				<cref name="VU Introduction to Security"/>
@@ -108,27 +108,27 @@
 				<cref name="VU Security for Systems Engineering"/>
 				<cref name="UE Introduction to Security"/>
 			</group>
-			<group name="Modul Softwarequalitätssicherung" requires="STEOP">
+			<group name="Modul Softwarequalitätssicherung" requires="steop">
 				<cref name="VU Software-Qualitätssicherung"/>
 			</group>
-			<group name="Modul Usability Engineering and Mobile Interaction" requires="STEOP">
+			<group name="Modul Usability Engineering and Mobile Interaction" requires="steop">
 				<cref name="VU Pilots in Mobile Interaction: User-centered Interaction Research and Evaluation"/>
 				<cref name="VU Usability Engineering"/>
 			</group>
-			<group name="Modul Vernetztes Lernen" requires="STEOP">
+			<group name="Modul Vernetztes Lernen" requires="steop">
 				<cref name="VO Vernetztes Lernen"/>
 				<cref name="UE Vernetztes Lernen"/>
 			</group>
 		</group>
 
-		<group name="STEOP" required="true" maxEctsIfUnsatisfied="22">
-			<group name="STEOP core" required="true">
+		<group name="steop" required="true" maxEctsIfUnsatisfied="22">
+			<group name="steop core" required="true">
 				<cref name="VO Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
 				<cref name="VU Einführung in die Programmierung 1"/>
 				<cref name="VU Orientierung Informatik und Wirtschaftsinformatik"/>
 			</group>
 
-			<group name="STEOP pool" required="true" minEcts="6">
+			<group name="steop pool" required="true" minEcts="6">
 				<cref name="UE Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
 				<cref name="VO Analysis für Informatik und Wirtschaftsinformatik"/>
 				<cref name="UE Analysis für Informatik und Wirtschaftsinformatik"/>
@@ -138,7 +138,7 @@
 				<cref name="VU Technische Grundlagen der Informatik"/>
 			</group>
 
-			<group name="STEOP free">
+			<group name="steop free">
 				<cref name="VU Algorithmen und Datenstrukturen"/>
 				<cref name="VU Einführung in die Programmierung 2"/>
 				<cref name="VU Einführung in Visual Computing"/>

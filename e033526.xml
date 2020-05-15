@@ -1,7 +1,7 @@
 <curriculum code="e033526" name="Bachelorstudium Wirtschaftsinformatik" source="https://tiss.tuwien.ac.at/curriculum/public/curriculumFileDownload.xhtml?date=20191001T000000&amp;key=45300">
 	<group name="study in total" minEcts="180">
 		<group name="compulsory modules" required="true">
-			<group name="Modul BAC - Bachelorarbeit" required="true" requires="STEOP">
+			<group name="Modul BAC - Bachelorarbeit" required="true" requires="steop">
 				<cref name="SE Wissenschaftliches Arbeiten"/>
 				<cref name="PR Bachelorarbeit für Informatik und Wirtschaftsinformatik"/>
 			</group>
@@ -20,45 +20,45 @@
 				<cref name="VU Einführung in die Programmierung 1"/>
 				<cref name="VU Einführung in die Programmierung 2"/>
 			</group>
-			<group name="Modul INT/SEN - Systems Engineering" required="true" requires="STEOP">
+			<group name="Modul INT/SEN - Systems Engineering" required="true" requires="steop">
 				<cref name="VU Technische Grundlagen der Informatik für Wirtschaftsinformatik"/>
 				<cref name="VO Verteilte Systeme"/>
 				<cref name="UE Verteilte Systeme"/>
 			</group>
-			<group name="Modul INT/SEP - Software Engineering und Projektmanagement" required="true" requires="STEOP">
+			<group name="Modul INT/SEP - Software Engineering und Projektmanagement" required="true" requires="steop">
 				<cref name="VO Software Engineering und Projektmanagement"/>
 				<cref name="PR Software Engineering und Projektmanagement"/>
 			</group>
-			<group name="Modul STW/MAT - Mathematik und Theoretische Informatik" required="true" requires="STEOP">
+			<group name="Modul STW/MAT - Mathematik und Theoretische Informatik" required="true" requires="steop">
 				<cref name="VO Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
 				<cref name="VO Analysis für Informatik und Wirtschaftsinformatik"/>
 				<cref name="VU Einführung in Theoretische Informatik und Logik"/>
 				<cref name="UE Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
 				<cref name="UE Analysis für Informatik und Wirtschaftsinformatik"/>
 			</group>
-			<group name="Modul STW/STA - Statistik und Wahrscheinlichkeitstheorie" required="true" requires="STEOP">
+			<group name="Modul STW/STA - Statistik und Wahrscheinlichkeitstheorie" required="true" requires="steop">
 				<cref name="VU Datenanalyse"/>
 				<cref name="VO Statistik und Wahrscheinlichkeitstheorie"/>
 				<cref name="UE Statistik und Wahrscheinlichkeitstheorie"/>
 			</group>
-			<group name="Modul WIN/DBS - Datenbanksysteme" required="true" requires="STEOP">
+			<group name="Modul WIN/DBS - Datenbanksysteme" required="true" requires="steop">
 				<cref name="VU Datenbanksysteme"/>
 			</group>
-			<group name="Modul WIN/EWA - Entwicklung von Web-Anwendungen" required="true" requires="STEOP">
+			<group name="Modul WIN/EWA - Entwicklung von Web-Anwendungen" required="true" requires="steop">
 				<cref name="VU Semistrukturierte Daten"/>
 				<cref name="VU Web Engineering"/>
 			</group>
-			<group name="Modul WIN/ISM - Information System Management" required="true" requires="STEOP">
+			<group name="Modul WIN/ISM - Information System Management" required="true" requires="steop">
 				<cref name="VU ERP Systeme"/>
 				<cref name="VU Enterprise Information Systems"/>
 				<cref name="VU IT Strategie"/>
 			</group>
-			<group name="Modul WIN/MOD - Modellierung" required="true" requires="STEOP">
+			<group name="Modul WIN/MOD - Modellierung" required="true" requires="steop">
 				<cref name="VU Formale Modellierung"/>
 				<cref name="VU Geschäftsprozessmodellierung"/>
 				<cref name="VU Objektorientierte Modellierung"/>
 			</group>
-			<group name="Modul WIN/RSI - Recht und Sicherheit" required="true" minEcts="9" requires="STEOP">
+			<group name="Modul WIN/RSI - Recht und Sicherheit" required="true" minEcts="9" requires="steop">
 				<cref name="VU Daten- und Informatikrecht"/>
 				<cref name="VU Introduction to Security"/>
 				<cref name="VU Privates Wirtschaftsrecht"/>
@@ -69,12 +69,12 @@
 				<cref name="VU Kosten- und Leistungsrechnung"/>
 				<cref name="VU Rechnungswesen"/>
 			</group>
-			<group name="Modul WIW/GOE - Grundlagen der Ökonomie" required="true" requires="STEOP">
+			<group name="Modul WIW/GOE - Grundlagen der Ökonomie" required="true" requires="steop">
 				<cref name="VO Grundlagen der Makroökonomie"/>
 				<cref name="VO Grundlagen der Mikroökonomie"/>
 				<cref name="UE Grundlagen der Mikroökonomie"/>
 			</group>
-			<group name="Modul WIW/MGT - Managementwissenschaften" required="true" requires="STEOP">
+			<group name="Modul WIW/MGT - Managementwissenschaften" required="true" requires="steop">
 				<cref name="VU Betriebswirtschaftliche Optimierung"/>
 				<cref name="VU Grundlagen der Organisation"/>
 				<cref name="VU Innovationsmanagement und Marketing"/>
@@ -82,7 +82,7 @@
 			</group>
 		</group>
 		<group name="elective modules" required="true" minEcts="12">
-			<group name="Modul SPF/INT - Schwerpunkt Informationstechnologie" maxEcts="12" requires="STEOP">
+			<group name="Modul SPF/INT - Schwerpunkt Informationstechnologie" maxEcts="12" requires="steop">
 				<cref name="VO Betriebssysteme"/>
 				<cref name="VU Einführung in Visual Computing"/>
 				<cref name="VU Funktionale Programmierung"/>
@@ -99,7 +99,7 @@
 				<cref name="UE Daten- und Informatikrecht Übung"/>
 				<cref name="UE Introduction to Security"/>
 			</group>
-			<group name="Modul SPF/WIN - Schwerpunkt Wirtschaftsinformatik" maxEcts="12" requires="STEOP">
+			<group name="Modul SPF/WIN - Schwerpunkt Wirtschaftsinformatik" maxEcts="12" requires="steop">
 				<cref name="VU Change Management"/>
 				<cref name="VO E-Government und Informationssysteme des öffentlichen Sektors"/>
 				<cref name="VU Internet Security"/>
@@ -107,7 +107,7 @@
 				<cref name="VU Socially Embedded Computing für Wirtschaftsinformatik"/>
 				<cref name="SE E-Government und Informationssysteme des öffentlichen Sektors"/>
 			</group>
-			<group name="Modul SPF/WIW - Schwerpunkt Wirtschaftswissenschaften" maxEcts="12" requires="STEOP">
+			<group name="Modul SPF/WIW - Schwerpunkt Wirtschaftswissenschaften" maxEcts="12" requires="steop">
 				<cref name="VO Finanzwissenschaften und Infrastrukturökonomie"/>
 				<cref name="VU Grundlagen der Arbeitswissenschaft"/>
 				<cref name="VO Industrielle Informationssysteme"/>
@@ -126,15 +126,15 @@
 			</group>
 		</group>
 
-		<group name="STEOP" required="true" maxEctsIfUnsatisfied="22">
-			<group name="STEOP core" required="true">
+		<group name="steop" required="true" maxEctsIfUnsatisfied="22">
+			<group name="steop core" required="true">
 				<cref name="VO Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
 				<cref name="VU Einführung in die Programmierung 1"/>
 				<cref name="VO Grundlagen der Betriebs- und Unternehmensführung"/>
 				<cref name="VU Orientierung Informatik und Wirtschaftsinformatik"/>
 			</group>
 
-			<group name="STEOP pool" required="true" minEcts="3">
+			<group name="steop pool" required="true" minEcts="3">
 				<cref name="UE Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
 				<cref name="VO Analysis für Informatik und Wirtschaftsinformatik"/>
 				<cref name="UE Analysis für Informatik und Wirtschaftsinformatik"/>
@@ -147,7 +147,7 @@
 				<cref name="VU Technische Grundlagen der Informatik für Wirtschaftsinformatik"/>
 			</group>
 
-			<group name="STEOP free">
+			<group name="steop free">
 				<cref name="VU Algorithmen und Datenstrukturen"/>
 				<cref name="VU Einführung in die Programmierung 2"/>
 			</group>
