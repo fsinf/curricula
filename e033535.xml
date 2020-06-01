@@ -137,7 +137,7 @@
 			</group>
 		</group>
 
-		<group name="steop" required="true" maxEctsIfUnsatisfied="22">
+		<group name="steop" required="true" maxEctsIfUncompleted="22">
 			<group name="steop core" required="true">
 				<cref name="VO Algebra und Diskrete Mathematik für Informatik und Wirtschaftsinformatik"/>
 				<cref name="VO Analysis für Informatik und Wirtschaftsinformatik"/>

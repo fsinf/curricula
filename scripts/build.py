@@ -10,14 +10,16 @@ def handle_group(el, courses):
 	data = el.attrib
 	if 'minEcts' in data:
 		data['minEcts'] = float(data['minEcts'])
-	if 'maxEctsIfUnsatisfied' in data:
-		data['maxEctsIfUnsatisfied'] = float(data['maxEctsIfUnsatisfied'])
+	if 'maxEctsIfUncompleted' in data:
+		data['maxEctsIfUncompleted'] = float(data['maxEctsIfUncompleted'])
 
 	if 'required' in data:
 		data['required'] = data['required'] in ('true', '1')
 
 	if el.findall('group'):
 		data['groups'] = [handle_group(group, courses) for group in el.findall('group')]
+	elif el.find('variable') is not None:
+		data['variable'] = True
 	else:
 		data['courses'] = [c.get('name') for c in el.findall('cref')]
 	return data
