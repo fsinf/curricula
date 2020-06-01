@@ -22,6 +22,18 @@ Additionally a [JavaScript API](https://www.fsinf.at/files/curricula/api.js) is 
 You can try it out on the [web index](https://www.fsinf.at/files/curricula/)
 by opening the developer console with F12 and running `await Curricula.getCurriculum('e033534')`.
 
+## Terminology
+
+* `required`, this group is required to complete the parent group
+* `requires`, to do a course of this group you firstly need to complete the given group
+* `minEcts`, to complete this group you need to complete at least the given
+  amount of ECTS of courses within it (including subgroups)
+* `maxEcts`, of the courses in this module you may only use the given amount of
+  ECTS as part of this group
+* `maxEctsIfUncompleted` as long as this group is uncompleted you may only do the
+  given amount of ECTS from it (this only limits non-required subgroups)
+* `variable`, courses can be used for this group that are not listed here
+
 ## Background
 
 As the [informatics students council](https://www.fsinf.at/) we want to provide
